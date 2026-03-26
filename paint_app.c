@@ -123,7 +123,7 @@ static void paint_plot_brush(int x, int y, short int color) {
     }
 }
 
-static int paint_keyboard_exit_requested(void) {
+static int paint_keyboard_exit_requested() {
     static int skip_next = 0;
     static int extended = 0;
 
@@ -154,7 +154,7 @@ static int paint_keyboard_exit_requested(void) {
     return (ps2_code == 0x76);
 }
 
-void paint_app(void) {
+void paint_app() {
     int palette_index = 0;
     int prev_buttons = 0;
 

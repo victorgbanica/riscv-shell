@@ -243,10 +243,7 @@ void visual_interactive_system() {
                         refresh_under_mouse();
                     }
                     else if (paint_icon_clicked == 1) {
-                        /*
-                        *************ADD PAINT FUNCTION WHEN READY!!!!!!!!
-                            */
-                        //reset coming from paint app
+                        paint_app();
                         clear_char();
                         draw_visual_interactive_wallpaper(BLUE_GRAD_START, BLUE_GRAD_END);
                         draw_visual_app_icons();

@@ -62,6 +62,10 @@ short int execute_command(char* command, int size) {		//This function handles wh
 	}
 	else if (strcmp(command + 1, "paint")) {
 		print_row("Opening visual editor.", SHELL_ROWS);
+		paint_app();
+		clear_screen();
+		clear_char();
+		flush_mouse();
 		return 0x07e0;
 	}
 	else if (strcmp(command + 1, "visual")) {

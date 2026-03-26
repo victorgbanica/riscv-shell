@@ -341,6 +341,7 @@ short int execute_command(char* command, int size) {		//This function handles wh
 		print_row("Opening visual editor.", SHELL_ROWS);
 		paint_app();
 		clear_screen();
+		clear_char();
 		flush_mouse();
 		return 0x07e0;
 	}
@@ -1055,11 +1056,7 @@ void visual_interactive_system() {
                         refresh_under_mouse();
                     }
                     else if (paint_icon_clicked == 1) {
-                        /*
-                        *************ADD PAINT FUNCTION WHEN READY!!!!!!!!
-                            */
                         paint_app();
-                        //reset coming from paint app
                         clear_char();
                         draw_visual_interactive_wallpaper(BLUE_GRAD_START, BLUE_GRAD_END);
                         draw_visual_app_icons();
@@ -1211,7 +1208,7 @@ static void paint_plot_brush(int x, int y, short int color) {
     }
 }
 
-static int paint_keyboard_exit_requested(void) {
+static int paint_keyboard_exit_requested() {
     static int skip_next = 0;
     static int extended = 0;
 
@@ -1242,7 +1239,7 @@ static int paint_keyboard_exit_requested(void) {
     return (ps2_code == 0x76);
 }
 
-void paint_app(void) {
+void paint_app() {
     int palette_index = 0;
     int prev_buttons = 0;
 
