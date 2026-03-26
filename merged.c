@@ -8,7 +8,6 @@
 #define LOGO_WIDTH LOGO_HEIGHT
 
 void draw_picture_array();
-void paint_app(void);
 
 // array size is 3200
 static const short paint_logo[]  = {
@@ -339,12 +338,12 @@ short int execute_command(char* command, int size) {		//This function handles wh
 		return 0x07e0;
 	}
 	else if (strcmp(command + 1, "paint")) {
-        print_row("Opening paint app.", SHELL_ROWS);
-        paint_app();
-        clear_screen();
-        flush_mouse();
-        return 0x07e0;
-    }
+		print_row("Opening visual editor.", SHELL_ROWS);
+		paint_app();
+		clear_screen();
+		flush_mouse();
+		return 0x07e0;
+	}
 	else if (strcmp(command + 1, "visual")) {
 		print_row("Opening visual system.", SHELL_ROWS);
 		visual_interactive_system();
@@ -371,7 +370,7 @@ short int execute_command(char* command, int size) {		//This function handles wh
 
 void open_help_dialog(int dialog_type) {
 	clear_char();
-	const char* printer;
+	char* printer;
 	
 	if (dialog_type == TEXT_HELP) printer = text_help_content;
 	else if (dialog_type == SHELL_HELP) printer = shell_help_content;
@@ -1059,6 +1058,7 @@ void visual_interactive_system() {
                         /*
                         *************ADD PAINT FUNCTION WHEN READY!!!!!!!!
                             */
+                        paint_app();
                         //reset coming from paint app
                         clear_char();
                         draw_visual_interactive_wallpaper(BLUE_GRAD_START, BLUE_GRAD_END);
