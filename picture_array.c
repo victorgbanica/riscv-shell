@@ -1,6 +1,7 @@
 #include "picture_array.h"
 #include "helper_funcs.h"
 #include "text_editor.h"
+#include "visual_system.h"
 
 void draw_picture_array() {
     int x = (int)(320 - AHMED_WIDTH) / 2;

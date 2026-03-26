@@ -7,7 +7,7 @@
 #define SHELL_ROWS 6
 #define ACTIVE_ROW SHELL_ROWS-1
 
-const char* shell_help_content = " word  : Open text editor.\n paint : Open visual editor.\n ahmed : Open visual paradise.\n ^ESC  : Power off.";
+const char* shell_help_content = " word  : Open text editor.\n paint : Open visual editor.\n visual: Open visual system.\n ahmed : Open visual paradise.\n ^ESC  : Power off.";
 
 void clear_screen();
 int strcmp(const char* str1, const char* str2);

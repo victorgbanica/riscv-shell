@@ -1,6 +1,7 @@
 #include "text_editor.h"
 #include "helper_funcs.h"
 #include "picture_array.h"
+#include "visual_system.h"
 
 
 void main_shell() {
@@ -31,6 +32,7 @@ void main_shell() {
 	int last_line = ACTIVE_ROW;
 
 	while (1) {
+		flush_mouse();
 		ps2_scan = *ps2_ptr;
 		if (ps2_scan & 0x8000) {	//Something to read from buffer
 			ps2_code = (unsigned char) (ps2_scan & 0xff);		//Get ps2 data

@@ -1,6 +1,7 @@
 #include "helper_funcs.h"
 #include "text_editor.h"
 #include "picture_array.h"
+#include "visual_system.h"
 
 void clear_screen() {
 	for (int i = 0; i < 320; i++) {
@@ -61,6 +62,13 @@ short int execute_command(char* command, int size) {		//This function handles wh
 	}
 	else if (strcmp(command + 1, "paint")) {
 		print_row("Opening visual editor.", SHELL_ROWS);
+		return 0x07e0;
+	}
+	else if (strcmp(command + 1, "visual")) {
+		print_row("Opening visual system.", SHELL_ROWS);
+		visual_interactive_system();
+		clear_screen();
+		flush_mouse();
 		return 0x07e0;
 	}
 	else if (strcmp(command + 1, "ily")) {

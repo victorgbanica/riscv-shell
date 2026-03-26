@@ -1,7 +1,7 @@
 #include "text_editor.h"
 #include "helper_funcs.h"
 #include "picture_array.h"
-
+#include "visual_system.h"
 
 //new functions with screen panning
 char get_char_from_content(int col, int row) {
@@ -163,6 +163,7 @@ void text_editor_command() {
 	int skip_next = 0;
 	int extended = 0;
 	while (1) {
+		flush_mouse();
 		ps2_scan = *ps2_ptr;
 		if (ps2_scan & 0x8000) {	//Something to read from buffer
 			ps2_code = (unsigned char) (ps2_scan & 0xff);		//Get ps2 data
@@ -254,6 +255,7 @@ void text_editor_insert() {
 	int extended = 0;
 	
 	while (1) {
+		flush_mouse();
 		int ps2_scan = *ps2_ptr;
 		if (ps2_scan & 0x8000) { //Data available to read
 			unsigned char ps2_code = (unsigned char)(ps2_scan & 0xff);
@@ -365,6 +367,7 @@ void text_editor_insert() {
 
 void text_editor() {
 	clear_char();
+	clear_screen();
 	text_editor_command();
 }
 
