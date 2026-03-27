@@ -3,6 +3,18 @@
 #include "text_editor.h"
 #include "picture_array.h"
 
+void init_mouse() {
+    *(ps2_ptr2) = 0xf4; //enable data streaming from mouse
+
+    //wait for mouse acknowledge response
+    while (1) {
+        int data = *ps2_ptr2;
+        if (data & 0x8000) {
+            unsigned char byte = (unsigned char) (data & 0xff);
+            if (byte == 0xfa) break;    //break on acknowledge
+        }
+    }
+}
 
 void read_mouse(int* dx, int* dy, int* buttons) {
     //mouse always sends packets of 3 bytes

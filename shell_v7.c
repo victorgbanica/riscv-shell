@@ -134,6 +134,9 @@ int main(void) {
 	*(timer_ptr + 2) = BLINK_DELAY;
 	*(timer_ptr + 3) = (BLINK_DELAY >> 16);
 	*(timer_ptr + 1) = 0b0110;
+
+	//set up mouse
+	init_mouse();
 	
 	main_shell();		//Run main shell loop
 	print_row(">exited.", 5);

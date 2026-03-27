@@ -236,6 +236,7 @@ int prev_mouse_x, prev_mouse_y, mouse_x, mouse_y;
 
 short int under_mouse[4][4] = {0};
 
+void init_mouse();
 void read_mouse(int* dx, int* dy, int* buttons);
 void flush_mouse();
 void refresh_under_mouse();
@@ -816,6 +817,18 @@ int execute_editor_command(char* command, int size) {		//This function handles w
 }
 
 
+void init_mouse() {
+    *(ps2_ptr2) = 0xf4; //enable data streaming from mouse
+
+    //wait for mouse acknowledge response
+    while (1) {
+        int data = *ps2_ptr2;
+        if (data & 0x8000) {
+            unsigned char byte = (unsigned char) (data & 0xff);
+            if (byte == 0xfa) break;    //break on acknowledge
+        }
+    }
+}
 
 void read_mouse(int* dx, int* dy, int* buttons) {
     //mouse always sends packets of 3 bytes
@@ -1435,6 +1448,9 @@ int main(void) {
 	*(timer_ptr + 2) = BLINK_DELAY;
 	*(timer_ptr + 3) = (BLINK_DELAY >> 16);
 	*(timer_ptr + 1) = 0b0110;
+
+	//set up mouse
+	init_mouse();
 	
 	main_shell();		//Run main shell loop
 	print_row(">exited.", 5);

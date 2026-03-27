@@ -16,6 +16,7 @@ int prev_mouse_x, prev_mouse_y, mouse_x, mouse_y;
 
 short int under_mouse[4][4] = {0};
 
+void init_mouse();
 void read_mouse(int* dx, int* dy, int* buttons);
 void flush_mouse();
 void refresh_under_mouse();
