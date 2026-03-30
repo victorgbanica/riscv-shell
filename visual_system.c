@@ -3,17 +3,58 @@
 #include "text_editor.h"
 #include "picture_array.h"
 
+/*
 void init_mouse() {
-    *(ps2_ptr2) = 0xf4; //enable data streaming from mouse
+    unsigned char byte1 = 0;
+    unsigned char byte2 = 0;
+
+    *ps2_ptr2 = 0xff; //force reset on startup to force mouse initialize sequence
+
+    //wait for mouse startup bytes 0xaa and 0x00
+    while (1) {
+        int data = *ps2_ptr2;
+        if (data & 0x8000) {
+            byte1 = byte2;
+            byte2 = data & 0xff;
+            if (byte1 == 0xaa && byte2 == 0x00) {
+                break;
+            }
+        }
+    }
+
+    *ps2_ptr2 = 0xf4; //enable data streaming from mouse
 
     //wait for mouse acknowledge response
     while (1) {
         int data = *ps2_ptr2;
         if (data & 0x8000) {
-            unsigned char byte = (unsigned char) (data & 0xff);
-            if (byte == 0xfa) break;    //break on acknowledge
+            if ((data & 0xFF) == 0xFA)
+                break;
         }
     }
+}*/
+
+void wait_for_byte(volatile int *ps2, unsigned char expected) {
+    while (1) {
+        int data = *ps2;
+        if (data & 0x8000) {
+            if ((data & 0xFF) == expected)
+                return;
+        }
+    }
+}
+
+void init_mouse() {
+    //reset mouse
+    *ps2_ptr2 = 0xFF;
+
+    wait_for_byte(ps2_ptr2, 0xFA); //ACK
+    wait_for_byte(ps2_ptr2, 0xAA); //self-test passed
+    wait_for_byte(ps2_ptr2, 0x00); //mouseID
+
+    //enable streaming
+    *ps2_ptr2 = 0xF4;
+    wait_for_byte(ps2_ptr2, 0xFA); //ACK
 }
 
 void read_mouse(int* dx, int* dy, int* buttons) {
