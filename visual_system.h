@@ -1,7 +1,7 @@
 #ifndef VISUAL_SYSTEM
 #define VISUAL_SYSTEM
 
-#define MOUSE_BASE 0xff200108
+#define MOUSE_BASE 0xff200100
 #define BLUE_GRAD_START 0x049f
 #define BLUE_GRAD_END 0x019f
 

@@ -3,36 +3,6 @@
 #include "text_editor.h"
 #include "picture_array.h"
 
-/*
-void init_mouse() {
-    unsigned char byte1 = 0;
-    unsigned char byte2 = 0;
-
-    *ps2_ptr2 = 0xff; //force reset on startup to force mouse initialize sequence
-
-    //wait for mouse startup bytes 0xaa and 0x00
-    while (1) {
-        int data = *ps2_ptr2;
-        if (data & 0x8000) {
-            byte1 = byte2;
-            byte2 = data & 0xff;
-            if (byte1 == 0xaa && byte2 == 0x00) {
-                break;
-            }
-        }
-    }
-
-    *ps2_ptr2 = 0xf4; //enable data streaming from mouse
-
-    //wait for mouse acknowledge response
-    while (1) {
-        int data = *ps2_ptr2;
-        if (data & 0x8000) {
-            if ((data & 0xFF) == 0xFA)
-                break;
-        }
-    }
-}*/
 
 void wait_for_byte(volatile int *ps2, unsigned char expected) {
     while (1) {
@@ -44,18 +14,88 @@ void wait_for_byte(volatile int *ps2, unsigned char expected) {
     }
 }
 
+void flush_ps2(volatile int *ps2) {
+    while (*ps2 & 0x8000) {
+        volatile int dump = *ps2;
+    }
+}
+
+/*
+void delay_2s() {
+    volatile int i;
+    for (i = 0; i < 20000000; i++);
+}*/
+
+int wait_for_byte_timeout(volatile int *ps2, unsigned char expected, int timeout) {
+    while (timeout--) {
+        int data = *ps2;
+        if (data & 0x8000) {
+            if ((data & 0xFF) == expected)
+                return 1;
+        }
+    }
+    return 0;
+}
+
+/*
 void init_mouse() {
-    //reset mouse
+    print_row("flush", 49);
+    delay_2s();
+
+    flush_ps2(ps2_ptr2);
+
+    print_row("reset send", 50);
+    delay_2s();
+
     *ps2_ptr2 = 0xFF;
 
-    wait_for_byte(ps2_ptr2, 0xFA); //ACK
-    wait_for_byte(ps2_ptr2, 0xAA); //self-test passed
-    wait_for_byte(ps2_ptr2, 0x00); //mouseID
+    if (!wait_for_byte_timeout(ps2_ptr2, 0xFA, 5000000)) {
+        print_row("no FA", 51);
+        delay_2s();
+        return;
+    }
 
-    //enable streaming
+    print_row("got FA", 51);
+    delay_2s();
+
+    if (!wait_for_byte_timeout(ps2_ptr2, 0xAA, 5000000)) {
+        print_row("no AA", 52);
+        delay_2s();
+        return;
+    }
+
+    print_row("got AA", 52);
+    delay_2s();
+
+    print_row("send F4", 54);
+    delay_2s();
+
     *ps2_ptr2 = 0xF4;
-    wait_for_byte(ps2_ptr2, 0xFA); //ACK
+
+    if (!wait_for_byte_timeout(ps2_ptr2, 0xFA, 5000000)) {
+        print_row("no ACK F4", 55);
+        delay_2s();
+        return;
+    }
+
+    print_row("mouse ok", 56);
+    delay_2s();
 }
+*/
+
+
+void init_mouse() {
+    flush_ps2(ps2_ptr2);
+    *ps2_ptr2 = 0xFF;
+
+    if (!wait_for_byte_timeout(ps2_ptr2, 0xFA, 5000000)) return;
+    if (!wait_for_byte_timeout(ps2_ptr2, 0xAA, 5000000)) return;
+
+    *ps2_ptr2 = 0xF4;
+    wait_for_byte_timeout(ps2_ptr2, 0xFA, 5000000);
+}
+
+
 
 void read_mouse(int* dx, int* dy, int* buttons) {
     //mouse always sends packets of 3 bytes
@@ -86,6 +126,7 @@ void read_mouse(int* dx, int* dy, int* buttons) {
     
     *dx = (int)bytes[1] - ((bytes[0] & 0x10) ? 256 : 0);  // bit 4 of byte 0 = x sign
     *dy = (int)bytes[2] - ((bytes[0] & 0x20) ? 256 : 0);  // bit 5 of byte0 = y sign
+    *dy = *dy * -1;
 }
 
 void flush_mouse() {

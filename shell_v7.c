@@ -137,6 +137,24 @@ int main(void) {
 
 	//set up mouse
 	init_mouse();
+
+	/*
+	print_row("kbd test", 40);
+
+	while (1) {
+		int data = *ps2_ptr;
+		if (data & 0x8000) {
+			unsigned char byte = data & 0xFF;
+
+			char msg[4];
+			msg[0] = "0123456789ABCDEF"[byte >> 4];
+			msg[1] = "0123456789ABCDEF"[byte & 0xF];
+			msg[2] = '\0';
+
+			print_row(msg, 41);
+		}
+	}
+	*/
 	
 	main_shell();		//Run main shell loop
 	print_row(">exited.", 5);
