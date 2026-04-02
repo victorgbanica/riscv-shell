@@ -611,35 +611,24 @@ void init_mouse() {
     flush_ps2(ps2_ptr2);
 }
 
-static unsigned char mouse_buf[3];
-static int mouse_buf_count = 0;
-static int mouse_synced = 0;
-
 int read_mouse_nb(int* dx, int* dy, int* buttons) {
-    while (*ps2_ptr2 & 0x8000) {
-        unsigned char byte = (unsigned char)(*ps2_ptr2 & 0xFF);
+    int b0, b1, b2;
 
-        if (!mouse_synced) {
-            if (byte & 0x08) {
-                mouse_buf[0] = byte;
-                mouse_buf_count = 1;
-                mouse_synced = 1;
-            }
-            continue;
-        }
+    b0 = *ps2_ptr2;
+    if (!(b0 & 0x8000)) return 0;
+    b0 = b0 & 0xFF;
+    if (!(b0 & 0x08)) return 0;
 
-        mouse_buf[mouse_buf_count++] = byte;
+    while (!(*ps2_ptr2 & 0x8000));
+    b1 = *ps2_ptr2 & 0xFF;
 
-        if (mouse_buf_count == 3) {
-            mouse_buf_count = 0;
-            mouse_synced = 0;
-            *buttons = mouse_buf[0] & 0x07;
-            *dx = (int)mouse_buf[1] - ((mouse_buf[0] & 0x10) ? 256 : 0);
-            *dy = ((int)mouse_buf[2] - ((mouse_buf[0] & 0x20) ? 256 : 0)) * -1;
-            return 1;
-        }
-    }
-    return 0;
+    while (!(*ps2_ptr2 & 0x8000));
+    b2 = *ps2_ptr2 & 0xFF;
+
+    *buttons = b0 & 0x07;
+    *dx = (b0 & 0x10) ? (b1 - 256) : b1;
+    *dy = (b0 & 0x20) ? (b2 - 256) : b2;
+    return 1;
 }
 
 void read_mouse(int* dx, int* dy, int* buttons) {
@@ -1008,9 +997,6 @@ void paint_app() {
     int eraser_index  = 0;
     int prev_buttons  = 0;
 
-    mouse_buf_count = 0;
-    mouse_synced = 0;
-
     paint_init_ui(palette_index, eraser_index);
     flush_mouse();
 
@@ -1043,12 +1029,17 @@ void paint_app() {
             continue;
         }
 
+        if (mouse_dx >  3) mouse_dx =  3;
+        if (mouse_dx < -3) mouse_dx = -3;
+        if (mouse_dy >  3) mouse_dy =  3;
+        if (mouse_dy < -3) mouse_dy = -3;
+
         mouse_x += mouse_dx;
         mouse_y += mouse_dy;
-        if (mouse_x < 0)   mouse_x = 0;
-        if (mouse_x > 316) mouse_x = 316;
-        if (mouse_y < 0)   mouse_y = 0;
-        if (mouse_y > 236) mouse_y = 236;
+        if (mouse_x < 0)                 mouse_x = 0;
+        if (mouse_x > 316)               mouse_x = 316;
+        if (mouse_y < 0)                 mouse_y = 0;
+        if (mouse_y > 236)               mouse_y = 236;
 
         int just_left  = (mouse_buttons & 0b001) && !(prev_buttons & 0b001);
         int just_right = (mouse_buttons & 0b010) && !(prev_buttons & 0b010);
