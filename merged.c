@@ -49,7 +49,6 @@ static const short paint_logo[]  = {
   0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 
   0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 
   0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 
-  0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 
   0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e
 };
 
@@ -91,9 +90,6 @@ static const short terminal_logo[]  = {
   0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
   0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
   0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
-  0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
-  0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
-  0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
   0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000
 };
 
@@ -109,12 +105,6 @@ static const short notepad_logo[]  = {
   0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xfc10, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 
   0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xd3f1, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 
   0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xd3f1, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 0x9edf, 
-  0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xfc10, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 
-  0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xfc10, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 
-  0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xfc10, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 
-  0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xfc10, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 
-  0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xabb2, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 0x3dbf, 
-  0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xfc10, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 
   0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xfc10, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 
   0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xfc10, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 
   0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xfc10, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 
@@ -167,25 +157,24 @@ void draw_shell_arrow_box(int row, short int color);
 #ifndef TEXT_EDITOR
 #define TEXT_EDITOR
 
+// ── Hardware addresses from partner's working version ──────────────────────
+// KEYBOARD = 0xff200108, MOUSE = 0xff200100  (swapped vs standard DE1-SoC docs)
 #define KEYBOARD_BASE 0xff200108
-#define CHAR_BUFFER 0x9000000
-#define VGA_BUFFER 0x8000000
-#define TIMER_BASE 0xff202000
-	
+#define CHAR_BUFFER   0x9000000
+#define VGA_BUFFER    0x8000000
+#define TIMER_BASE    0xff202000
+
 #define BLINK_DELAY 50000000
-	
+
 #define SAVE_AND_EXIT 1
 #define DELETE_ROW 3
 
-volatile int * ps2_ptr = (int*) KEYBOARD_BASE;
-volatile char * char_ptr = (char*) CHAR_BUFFER;
-volatile short * vga_ptr = (short*) VGA_BUFFER;
-volatile int * timer_ptr = (int*) TIMER_BASE;
+volatile int   * ps2_ptr   = (int*)   KEYBOARD_BASE;
+volatile char  * char_ptr  = (char*)  CHAR_BUFFER;
+volatile short * vga_ptr   = (short*) VGA_BUFFER;
+volatile int   * timer_ptr = (int*)   TIMER_BASE;
 
-//char text_content[80][60] = {0}; This is from text_editor.c plain
-//int position = 0;
-
-char text_content[120][60] = {0};   //Save last 2 rows for command
+char text_content[120][60] = {0};
 int cursor_col = 0;
 int cursor_row = 0;
 int view_offset = 0;
@@ -204,31 +193,27 @@ void text_editor_command();
 void text_editor_insert();
 void text_editor();
 
-//new functions with screen panning
 char get_char_from_content(int col, int row);
 void put_char_in_content(char letter, int col, int row);
 void redraw_screen();
 void update_view();
-//modified to accomodate for offset
 void draw_vga_underscore_cursor(short int color);
 int find_row_end(int row);
-//useful for inserting a character in place
 void shift_row_right(int from_col, int row);
-//useful for backspacing
 void shift_row_left(int from_col, int row);
 
 #endif
 #ifndef VISUAL_SYSTEM
 #define VISUAL_SYSTEM
 
+// ── Mouse address from partner's working version ──────────────────────────
 #define MOUSE_BASE 0xff200100
 #define BLUE_GRAD_START 0x049f
-#define BLUE_GRAD_END 0x019f
+#define BLUE_GRAD_END   0x019f
 
-#define SHELL_LOGO_ENCODE 0
+#define SHELL_LOGO_ENCODE   0
 #define NOTEPAD_LOGO_ENCODE 1
-#define PAINT_LOGO_ENCODE 2
-
+#define PAINT_LOGO_ENCODE   2
 
 volatile int * ps2_ptr2 = (int*) MOUSE_BASE;
 
@@ -238,6 +223,7 @@ short int under_mouse[4][4] = {0};
 
 void wait_for_byte(volatile int *ps2, unsigned char expected);
 void init_mouse();
+void paint_app(void);
 void read_mouse(int* dx, int* dy, int* buttons);
 void flush_mouse();
 void refresh_under_mouse();
@@ -253,178 +239,135 @@ short int add_blue_highlight(short int color);
 void draw_picture_array() {
     int x = (int)(320 - AHMED_WIDTH) / 2;
     int y = (int)(240 - AHMED_HEIGHT) / 2;
-    for (int i = 0; i < AHMED_WIDTH; ++i) {
-        for (int j = 0; j < AHMED_HEIGHT; ++j) {
+    for (int i = 0; i < AHMED_WIDTH; ++i)
+        for (int j = 0; j < AHMED_HEIGHT; ++j)
             *(vga_ptr + ((y + j) << 9) + x + i) = ahmed[j * AHMED_WIDTH + i];
+
+    unsigned char ps2_code = 0;
+    int ps2_scan;
+    int skip_next = 0;
+    while (1) {
+        ps2_scan = *ps2_ptr;
+        if (ps2_scan & 0x8000) {
+            ps2_code = (unsigned char)(ps2_scan & 0xff);
+            if (skip_next > 0) { skip_next--; }
+            else if (ps2_code == 0xf0) { skip_next = 1; }
+            else if (ps2_code == 0x76) { break; }
         }
     }
-
-    //wait until ESC is pressed
-	unsigned char ps2_code = 0;
-	int ps2_scan;
-	
-	int skip_next = 0;
-	while (1) {
-		ps2_scan = *ps2_ptr;
-		if (ps2_scan & 0x8000) {	//Something to read from buffer
-			ps2_code = (unsigned char) (ps2_scan & 0xff);		//Get ps2 data
-			
-			if (skip_next > 0) {
-				skip_next--;
-			}
-			else if (ps2_code == 0xf0) {
-				skip_next = 1;
-			}
-			else if (ps2_code == 0x76) {		//ESC, exit
-				break;				
-			}
-		}
-	}
 }
 
 void clear_screen() {
-	for (int i = 0; i < 320; i++) {
-		for (int j = 0; j < 240; j++) {
-			*(vga_ptr + (j << 9) + i) = 0x0000;
-		}
-	}
+    for (int i = 0; i < 320; i++)
+        for (int j = 0; j < 240; j++)
+            *(vga_ptr + (j << 9) + i) = 0x0000;
 }
 
-/*
-	This function compares 2 null terminated strings
-	If the strings are equal, it returns 1
-	If the string are not equal, it returns 0
-	Has a safety limit of 80 chars
-*/
 int strcmp(const char* str1, const char* str2) {
-	int i;
-	for (i = 0; i < 79 && str1[i]; ++i) {
-		if (str1[i] != str2[i]) return 0;
-	}
-	if ((str1[i] != 0 && str2[i] == 0) || (str1[i] == 0 && str2[i] != 0)) return 0;
-	
-	return 1;
+    int i;
+    for (i = 0; i < 79 && str1[i]; ++i) {
+        if (str1[i] != str2[i]) return 0;
+    }
+    if ((str1[i] != 0 && str2[i] == 0) || (str1[i] == 0 && str2[i] != 0)) return 0;
+    return 1;
 }
 
-/*
-	This function safely prints a buffer onto a row. It is limited to 80 characters and can print literals as well.
-*/
 void print_row(char* buffer, int row) {
-	char safe_buffer[80] = {0};
-	int buffer_done = 0;
-	for (int i = 0; i < 80; ++i) {
-		if (buffer[i] == 0) buffer_done = 1;
-		
-		if (buffer_done == 0) safe_buffer[i] = buffer[i];
-		
-		*(char_ptr + (row << 7) + i) = safe_buffer[i];
-	}
+    char safe_buffer[80] = {0};
+    int buffer_done = 0;
+    for (int i = 0; i < 80; ++i) {
+        if (buffer[i] == 0) buffer_done = 1;
+        if (buffer_done == 0) safe_buffer[i] = buffer[i];
+        *(char_ptr + (row << 7) + i) = safe_buffer[i];
+    }
 }
 
-//returns a color based on success of command
-short int execute_command(char* command, int size) {		//This function handles whatever is in the curr_user_buff when the user presses Enter by launching that app
-	if (*(command + 1) == 0) {
-		print_row(" ", SHELL_ROWS);
-		return 0x0000;	//Black for transparent/neutral
-	}
-	else if (strcmp(command + 1, "help")) {
-		print_row("Opening help dialog.", SHELL_ROWS);
-		open_help_dialog(SHELL_HELP);
-		clear_char();
-		return 0x07e0;	//green success
-	}
-	else if (strcmp(command + 1, "word")) {
-		print_row("Opening text editor.", SHELL_ROWS);
-		text_editor();
-		clear_char();
-		return 0x07e0;
-	}
-	else if (strcmp(command + 1, "paint")) {
-		print_row("Opening visual editor.", SHELL_ROWS);
-		paint_app();
-		clear_screen();
-		clear_char();
-		flush_mouse();
-		return 0x07e0;
-	}
-	else if (strcmp(command + 1, "visual")) {
-		print_row("Opening visual system.", SHELL_ROWS);
-		visual_interactive_system();
-		clear_screen();
-		flush_mouse();
-		return 0x07e0;
-	}
-	else if (strcmp(command + 1, "ily")) {
-		print_row("I love you too!", SHELL_ROWS);
-		return 0xf81f;
-	}
-	else if (strcmp(command + 1, "ahmed")) {
-		clear_screen();
-		clear_char();
-		draw_picture_array();
-		clear_screen();
-		return 0xffc0;
-	}
-	else {
-		print_row("Command is not known to this system. \"help\" to open help dialog", SHELL_ROWS);
-		return 0xe800;
-	}
+short int execute_command(char* command, int size) {
+    if (*(command + 1) == 0) {
+        print_row(" ", SHELL_ROWS);
+        return 0x0000;
+    }
+    else if (strcmp(command + 1, "help")) {
+        print_row("Opening help dialog.", SHELL_ROWS);
+        open_help_dialog(SHELL_HELP);
+        clear_char();
+        return 0x07e0;
+    }
+    else if (strcmp(command + 1, "word")) {
+        print_row("Opening text editor.", SHELL_ROWS);
+        text_editor();
+        clear_char();
+        return 0x07e0;
+    }
+    else if (strcmp(command + 1, "paint")) {
+        print_row("Opening visual editor.", SHELL_ROWS);
+        paint_app();
+        clear_screen();
+        clear_char();
+        flush_mouse();
+        return 0x07e0;
+    }
+    else if (strcmp(command + 1, "visual")) {
+        print_row("Opening visual system.", SHELL_ROWS);
+        visual_interactive_system();
+        clear_screen();
+        flush_mouse();
+        return 0x07e0;
+    }
+    else if (strcmp(command + 1, "ily")) {
+        print_row("I love you too!", SHELL_ROWS);
+        return 0xf81f;
+    }
+    else if (strcmp(command + 1, "ahmed")) {
+        clear_screen();
+        clear_char();
+        draw_picture_array();
+        clear_screen();
+        return 0xffc0;
+    }
+    else {
+        print_row("Command is not known to this system. \"help\" to open help dialog", SHELL_ROWS);
+        return 0xe800;
+    }
 }
 
 void open_help_dialog(int dialog_type) {
-	clear_char();
-	char* printer;
-	
-	if (dialog_type == TEXT_HELP) printer = text_help_content;
-	else if (dialog_type == SHELL_HELP) printer = shell_help_content;
-	else return;
-	
-	int position = 0;
-	while (*printer) {
-		if (*printer == '\n') {
-			printer++;
-			put_char_in_buffer(0x00, position);
-			position++;
-			while (position % 80) {				//Fill row with zeros until next row
-				put_char_in_buffer(0x00, position++);
-			}
-		}
-		else put_char_in_buffer(*(printer++), position++);
-	}
-	
-	//wait until ESC is pressed
-	unsigned char ps2_code = 0;
-	int ps2_scan;
-	
-	int skip_next = 0;
-	while (1) {
-		ps2_scan = *ps2_ptr;
-		if (ps2_scan & 0x8000) {	//Something to read from buffer
-			ps2_code = (unsigned char) (ps2_scan & 0xff);		//Get ps2 data
-			
-			if (skip_next > 0) {
-				skip_next--;
-			}
-			else if (ps2_code == 0xf0) {
-				skip_next = 1;
-			}
-			else if (ps2_code == 0x76) {		//ESC, exit
-				break;				
-			}
-		}
-	}
+    clear_char();
+    char* printer;
+    if (dialog_type == TEXT_HELP) printer = text_help_content;
+    else if (dialog_type == SHELL_HELP) printer = shell_help_content;
+    else return;
+    int position = 0;
+    while (*printer) {
+        if (*printer == '\n') {
+            printer++;
+            put_char_in_buffer(0x00, position);
+            position++;
+            while (position % 80) put_char_in_buffer(0x00, position++);
+        }
+        else put_char_in_buffer(*(printer++), position++);
+    }
+    unsigned char ps2_code = 0;
+    int ps2_scan;
+    int skip_next = 0;
+    while (1) {
+        ps2_scan = *ps2_ptr;
+        if (ps2_scan & 0x8000) {
+            ps2_code = (unsigned char)(ps2_scan & 0xff);
+            if (skip_next > 0) { skip_next--; }
+            else if (ps2_code == 0xf0) { skip_next = 1; }
+            else if (ps2_code == 0x76) { break; }
+        }
+    }
 }
 
 void draw_shell_arrow_box(int row, short int color) {
-	row *= 4;
-	for (int i = 0; i < 4; ++i) {
-		for (int j = 0; j < 4; ++j) {
-			*(vga_ptr + ((row + j) << 9) + i) = color;
-		}
-	}
+    row *= 4;
+    for (int i = 0; i < 4; ++i)
+        for (int j = 0; j < 4; ++j)
+            *(vga_ptr + ((row + j) << 9) + i) = color;
 }
 
-//new functions with screen panning
 char get_char_from_content(int col, int row) {
     if (col < 0 || col >= 120 || row < 0 || row >= 60) return 0;
     return text_content[col][row];
@@ -436,33 +379,21 @@ void put_char_in_content(char letter, int col, int row) {
 }
 
 void redraw_screen() {
-    for (int row = 0; row < 58; ++row) {
+    for (int row = 0; row < 58; ++row)
         for (int col = 0; col < 80; ++col) {
             int logical_col = col + view_offset;
             char c = (logical_col < 120) ? text_content[logical_col][row] : 0;
             *(char_ptr + (row << 7) + col) = c;
         }
-    }
 }
 
 void update_view() {
-    //Update offset if the cursor is off the screen
     int new_offset = view_offset;
-    if (cursor_col >= view_offset + 79) {
-        new_offset = cursor_col - 79;
-    }
-    else if (cursor_col < view_offset) {
-        new_offset = cursor_col;
-    }
-
-    //If an update happened, redraw screen to accomodate pan
-    if (new_offset != view_offset) {
-        view_offset = new_offset;
-        redraw_screen();
-    }
+    if (cursor_col >= view_offset + 79) new_offset = cursor_col - 79;
+    else if (cursor_col < view_offset)  new_offset = cursor_col;
+    if (new_offset != view_offset) { view_offset = new_offset; redraw_screen(); }
 }
 
-//modified to accomodate for offset
 void draw_vga_underscore_cursor(short int color) {
     int display_col = cursor_col - view_offset;
     if (display_col < 0 || display_col >= 80) return;
@@ -474,593 +405,329 @@ void draw_vga_underscore_cursor(short int color) {
 
 int find_row_end(int row) {
     int col = 0;
-    while (col < 119 && text_content[col][row]) {
-        col++;
-    }
+    while (col < 119 && text_content[col][row]) col++;
     return col;
 }
 
-//useful for inserting a character in place
 void shift_row_right(int from_col, int row) {
     int end = find_row_end(row);
-    if (end >= 119) return; //row is full, can't shift any further
-    while (end > from_col) {
-        text_content[end][row] = text_content[end-1][row];
-        end--;
-    }
+    if (end >= 119) return;
+    while (end > from_col) { text_content[end][row] = text_content[end-1][row]; end--; }
     text_content[from_col][row] = 0;
 }
 
-//useful for backspacing
 void shift_row_left(int from_col, int row) {
     int col = from_col;
-    while (col < 119 && text_content[col][row]) {
-        text_content[col][row] = text_content[col+1][row];
-        col++;
-    }
+    while (col < 119 && text_content[col][row]) { text_content[col][row] = text_content[col+1][row]; col++; }
     text_content[col][row] = 0;
 }
-//end of new screen panning functions
-
-
 
 void clear_char() {
-	for (int i = 0; i < 80; i++) {
-		for (int j = 0; j < 60; j++) {
-			*(char_ptr + (j << 7) + i) = 0x00;
-		}
-	}
+    for (int i = 0; i < 80; i++)
+        for (int j = 0; j < 60; j++)
+            *(char_ptr + (j << 7) + i) = 0x00;
 }
 
 void draw_vga_underscore(int pos, short int color) {
-	int col = pos % 80;
-	int row = (int) pos / 80;
-	int pixel_x = col * 4;
-	int pixel_y = row * 4 + 3; //add 3 to get the bottom row of character cell
-	
-	for (int i = 0; i < 4; ++i) {
-		*(vga_ptr + (pixel_y << 9) + (pixel_x + i)) = color;
-	}
+    int col = pos % 80;
+    int row = (int) pos / 80;
+    int pixel_x = col * 4;
+    int pixel_y = row * 4 + 3;
+    for (int i = 0; i < 4; ++i)
+        *(vga_ptr + (pixel_y << 9) + (pixel_x + i)) = color;
 }
 
 char ps2_to_ascii(unsigned char code) {
     switch(code) {
-        case 0x1C: return 'a';
-        case 0x32: return 'b';
-        case 0x21: return 'c';
-        case 0x23: return 'd';
-        case 0x24: return 'e';
-        case 0x2B: return 'f';
-        case 0x34: return 'g';
-        case 0x33: return 'h';
-        case 0x43: return 'i';
-        case 0x3B: return 'j';
-        case 0x42: return 'k';
-        case 0x4B: return 'l';
-        case 0x3A: return 'm';
-        case 0x31: return 'n';
-        case 0x44: return 'o';
-        case 0x4D: return 'p';
-        case 0x15: return 'q';
-        case 0x2D: return 'r';
-        case 0x1B: return 's';
-        case 0x2C: return 't';
-        case 0x3C: return 'u';
-        case 0x2A: return 'v';
-        case 0x1D: return 'w';
-        case 0x22: return 'x';
-        case 0x35: return 'y';
-        case 0x1A: return 'z';
-        case 0x29: return ' ';   // space
-        case 0x5A: return '\n';  // enter
+        case 0x1C: return 'a'; case 0x32: return 'b'; case 0x21: return 'c';
+        case 0x23: return 'd'; case 0x24: return 'e'; case 0x2B: return 'f';
+        case 0x34: return 'g'; case 0x33: return 'h'; case 0x43: return 'i';
+        case 0x3B: return 'j'; case 0x42: return 'k'; case 0x4B: return 'l';
+        case 0x3A: return 'm'; case 0x31: return 'n'; case 0x44: return 'o';
+        case 0x4D: return 'p'; case 0x15: return 'q'; case 0x2D: return 'r';
+        case 0x1B: return 's'; case 0x2C: return 't'; case 0x3C: return 'u';
+        case 0x2A: return 'v'; case 0x1D: return 'w'; case 0x22: return 'x';
+        case 0x35: return 'y'; case 0x1A: return 'z'; case 0x29: return ' ';
+        case 0x5A: return '\n';
         default:   return 0;
     }
 }
 
 void put_char_in_buffer(char letter, int position) {
-	int x = position % 80;
-	int y = (int) position / 80;
-	*(char_ptr + (y << 7) + x) = letter;
+    int x = position % 80;
+    int y = (int) position / 80;
+    *(char_ptr + (y << 7) + x) = letter;
 }
 
 void text_editor_command() {
-	clear_char();	//Bring back previous content
-	for (int i = 0; i < 80; i++) {
-		for (int j = 0; j < 60; j++) {
-			*(char_ptr + (j << 7) + i) = text_content[i][j];
-		}
-	}
-	
-	draw_vga_underscore_cursor(0xffff);
-	
-	char curr_user_buff[80] = {'>', 0};	//Size for a whole row (80 chars should be plenty)
-	int curr_buff_size = 1;			//Keep track of buffer sizes
-	
-	print_row(curr_user_buff, 58);
-	
-	unsigned char ps2_code = 0;
-	int ps2_scan;
-	
-	int skip_next = 0;
-	int extended = 0;
-	while (1) {
-		flush_mouse();
-		ps2_scan = *ps2_ptr;
-		if (ps2_scan & 0x8000) {	//Something to read from buffer
-			ps2_code = (unsigned char) (ps2_scan & 0xff);		//Get ps2 data
-			
-			if (skip_next > 0) {
-				skip_next--;
-			}
-			else if (ps2_code == 0xf0) {
-				skip_next = 1;
-				extended = 0;
-			}
-			else if (ps2_code == 0xe0) {
-				extended = 1;	//handle extended ps2 key
-			}
-			else {
-				if (extended) {
-					extended = 0;
-					continue;
-				}
-				if (ps2_code == 0x5A) {			//If user presses enter, handle current command
-					draw_vga_underscore_cursor(0x0000);
-					
-					int result = execute_editor_command(curr_user_buff, curr_buff_size);
-					
-					//Now, erase current command buff
-					for (int i = 1; i < 80; ++i) {
-						curr_user_buff[i] = 0;
-					}
-					curr_buff_size = 1;
-					
-					if (result == SAVE_AND_EXIT) {
-						break;
-					}
-					
-					else if (result == TEXT_HELP) {
-						clear_char();
-						//bring back prev text
-						redraw_screen();
-						draw_vga_underscore_cursor(0xffff);
-					}
-					
-					else if (result == DELETE_ROW) {
-						//delete row
-						cursor_col = 0;
-						for (int i = 0; i < 120; ++i) {
-							text_content[i][cursor_row] = 0;
-						}
-						redraw_screen();
-                        draw_vga_underscore_cursor(0xffff);
-					}
-					
-					//else continue normally
-				}
-				
-				else if (ps2_code == 0x43 && curr_user_buff[curr_buff_size-1] == '>') {	//Enter insert mode
-					for (int i = 1; i < 80; ++i) {
-						curr_user_buff[i] = 0;
-					}
-					curr_buff_size = 1;
-					text_editor_insert();
-				}
-				
-				else if (ps2_code == 0x76) {    //esc
-					print_row("Use \"sw\" to save and exit.", 59);
-				}
-
-				else if (ps2_code == 0x66) {	//Backspace
-					if (curr_buff_size > 1) {
-						curr_buff_size--;
-					}
-					curr_user_buff[curr_buff_size] = 0;		
-				}
-
-				else {
-					char ascii_char = ps2_to_ascii(ps2_code);
-					if (curr_buff_size < 78) {		//Leave 1 char at the end for null-termination always
-						curr_user_buff[curr_buff_size++] = ascii_char;
-					}
-				}
-				print_row(curr_user_buff, 58);
-			}
-		}
-	}
-}
-
-
-void text_editor_insert() {
-	int skip_next = 0;
-	int extended = 0;
-	
-	while (1) {
-		flush_mouse();
-		int ps2_scan = *ps2_ptr;
-		if (ps2_scan & 0x8000) { //Data available to read
-			unsigned char ps2_code = (unsigned char)(ps2_scan & 0xff);
-			
-			if (skip_next > 0) {
-				skip_next--;
-			}
-			else if (ps2_code == 0xf0) {
-				skip_next = 1;
-				extended = 0;
-			}
-			else if (ps2_code == 0xe0) {
-				extended = 1;	//handle extended ps2 key
-			}
-			else {
-				if (extended) {
-					extended = 0;
-					
-					//put_char_in_buffer(blink_under, position);	//To ensure blinking underscore cleared
-					draw_vga_underscore_cursor(0x0000); //clear old underscore always
-					position_blinker = 0;
-				
-					if (ps2_code == 0x6b) {		//left arrow
-                        if (cursor_col > 0)
-						    cursor_col--;
-                        else if (cursor_row > 0) {  //wrap around to prev row
-                            cursor_row--;
-                            cursor_col = find_row_end(cursor_row);
-                        }
-                    }
-					else if (ps2_code == 0x74) { //right arrow
-                        if (cursor_col < find_row_end(cursor_row)) {
-                            cursor_col++;
-                        }
-                        else if (cursor_row < 57) {
-                            cursor_row++;
-                            cursor_col = 0;
-                        }
-					}
-                    else if (ps2_code == 0x75) { //up arrow
-                        if (cursor_row > 0) {
-                            cursor_row--;
-                            if (text_content[cursor_col][cursor_row] == 0) cursor_col = find_row_end(cursor_row);
-                        }
-                        else {
-                            cursor_col = 0;
-                        }                        
-                    }
-                    else if (ps2_code == 0x72) { //down arrow
-                        if (cursor_row < 57) {
-                            cursor_row++;
-                            if (text_content[cursor_col][cursor_row] == 0) cursor_col = find_row_end(cursor_row);
-                        }
-                        else {
-                            cursor_col = 119;
-                        }
-                    }
-                    update_view();
-				}
-				else {
-					char ascii_char = ps2_to_ascii(ps2_code);
-					if (ps2_code == 0x76) { 		//Escape to exit insert mode
-						draw_vga_underscore_cursor(0xffff);
-						break;
-					}
-
-					//put_char_in_buffer(blink_under, position);	//To ensure blinking underscore cleared
-					draw_vga_underscore_cursor(0x0000);
-					position_blinker = 0;
-
-					if (ascii_char == '\n') {			//Enter
-						if (cursor_row < 57) {
-                            cursor_row++;
-                            cursor_col = 0;
-                            update_view();
-                        }
-					}
-					else if (ps2_code == 0x66) {		//Backspace
-                        if (cursor_col > 0) {
-                            cursor_col--;
-                            shift_row_left(cursor_col, cursor_row);
-                            redraw_screen();
-                        }
-                        else if (cursor_row > 0) {
-                            cursor_row--;
-                            cursor_col = find_row_end(cursor_row);
-                        }
-                        update_view();
-					}
-					else if (ascii_char) {
-						shift_row_right(cursor_col, cursor_row);
-                        put_char_in_content(ascii_char, cursor_col, cursor_row);
-                        redraw_screen();
-                        cursor_col = (cursor_col < 119) ? cursor_col + 1 : cursor_col;
-                        update_view();
-					}
-					//blink_under = *(char_ptr + ((int)(position / 80) << 7) + position % 80);
-				}
-			}
-		}
-		if (*timer_ptr & 0b1) {
-			position_blinker = (position_blinker) ? 0 : 1;
-			if (position_blinker) draw_vga_underscore_cursor(0xffff); //put_char_in_buffer('_', position);
-			else draw_vga_underscore_cursor(0x0000); //put_char_in_buffer(blink_under, position);
-			*timer_ptr = 0;
-		}
-	}
-}
-
-void text_editor() {
-	clear_char();
-	clear_screen();
-	text_editor_command();
-}
-
-
-int execute_editor_command(char* command, int size) {		//This function handles whatever is in the curr_user_buff when the user presses Enter by launching that app
-	if (*(command + 1) == 0) {
-		print_row(" ", 59);
-		return 0;
-	}
-	else if (strcmp(command + 1, "sw")) {	//Save and exit
-		print_row("Saving work.", 59);
-		return SAVE_AND_EXIT;
-	}
-	else if (strcmp(command + 1, "dr")) {	//Delete row
-		print_row("Deleted row.", 59);
-		return DELETE_ROW;
-	}
-	else if (strcmp(command + 1, "h")) {	//Help
-		print_row("Opening help dialog.", 59);
-		open_help_dialog(TEXT_HELP);
-		return TEXT_HELP;
-	}
-	else {
-		print_row("Invalid command. \"h\" to open help dialog.", 59);
-		return 0;
-	}
-}
-
-
-
-void wait_for_byte(volatile int *ps2, unsigned char expected) {
+    clear_char();
+    for (int i = 0; i < 80; i++)
+        for (int j = 0; j < 60; j++)
+            *(char_ptr + (j << 7) + i) = text_content[i][j];
+    draw_vga_underscore_cursor(0xffff);
+    char curr_user_buff[80] = {'>', 0};
+    int curr_buff_size = 1;
+    print_row(curr_user_buff, 58);
+    unsigned char ps2_code = 0;
+    int ps2_scan;
+    int skip_next = 0;
+    int extended = 0;
     while (1) {
-        int data = *ps2;
-        if (data & 0x8000) {
-            if ((data & 0xFF) == expected)
-                return;
+        flush_mouse();
+        ps2_scan = *ps2_ptr;
+        if (ps2_scan & 0x8000) {
+            ps2_code = (unsigned char)(ps2_scan & 0xff);
+            if (skip_next > 0) { skip_next--; }
+            else if (ps2_code == 0xf0) { skip_next = 1; extended = 0; }
+            else if (ps2_code == 0xe0) { extended = 1; }
+            else {
+                if (extended) { extended = 0; continue; }
+                if (ps2_code == 0x5A) {
+                    draw_vga_underscore_cursor(0x0000);
+                    int result = execute_editor_command(curr_user_buff, curr_buff_size);
+                    for (int i = 1; i < 80; ++i) curr_user_buff[i] = 0;
+                    curr_buff_size = 1;
+                    if (result == SAVE_AND_EXIT) break;
+                    else if (result == TEXT_HELP) { clear_char(); redraw_screen(); draw_vga_underscore_cursor(0xffff); }
+                    else if (result == DELETE_ROW) {
+                        cursor_col = 0;
+                        for (int i = 0; i < 120; ++i) text_content[i][cursor_row] = 0;
+                        redraw_screen(); draw_vga_underscore_cursor(0xffff);
+                    }
+                }
+                else if (ps2_code == 0x43 && curr_user_buff[curr_buff_size-1] == '>') {
+                    for (int i = 1; i < 80; ++i) curr_user_buff[i] = 0;
+                    curr_buff_size = 1;
+                    text_editor_insert();
+                }
+                else if (ps2_code == 0x76) { print_row("Use \"sw\" to save and exit.", 59); }
+                else if (ps2_code == 0x66) {
+                    if (curr_buff_size > 1) curr_buff_size--;
+                    curr_user_buff[curr_buff_size] = 0;
+                }
+                else {
+                    char ascii_char = ps2_to_ascii(ps2_code);
+                    if (curr_buff_size < 78) curr_user_buff[curr_buff_size++] = ascii_char;
+                }
+                print_row(curr_user_buff, 58);
+            }
         }
     }
 }
 
-void flush_ps2(volatile int *ps2) {
-    while (*ps2 & 0x8000) {
-        volatile int dump = *ps2;
+void text_editor_insert() {
+    int skip_next = 0;
+    int extended = 0;
+    while (1) {
+        flush_mouse();
+        int ps2_scan = *ps2_ptr;
+        if (ps2_scan & 0x8000) {
+            unsigned char ps2_code = (unsigned char)(ps2_scan & 0xff);
+            if (skip_next > 0) { skip_next--; }
+            else if (ps2_code == 0xf0) { skip_next = 1; extended = 0; }
+            else if (ps2_code == 0xe0) { extended = 1; }
+            else {
+                if (extended) {
+                    extended = 0;
+                    draw_vga_underscore_cursor(0x0000);
+                    position_blinker = 0;
+                    if (ps2_code == 0x6b) {
+                        if (cursor_col > 0) cursor_col--;
+                        else if (cursor_row > 0) { cursor_row--; cursor_col = find_row_end(cursor_row); }
+                    }
+                    else if (ps2_code == 0x74) {
+                        if (cursor_col < find_row_end(cursor_row)) cursor_col++;
+                        else if (cursor_row < 57) { cursor_row++; cursor_col = 0; }
+                    }
+                    else if (ps2_code == 0x75) {
+                        if (cursor_row > 0) { cursor_row--; if (text_content[cursor_col][cursor_row] == 0) cursor_col = find_row_end(cursor_row); }
+                        else cursor_col = 0;
+                    }
+                    else if (ps2_code == 0x72) {
+                        if (cursor_row < 57) { cursor_row++; if (text_content[cursor_col][cursor_row] == 0) cursor_col = find_row_end(cursor_row); }
+                        else cursor_col = 119;
+                    }
+                    update_view();
+                }
+                else {
+                    char ascii_char = ps2_to_ascii(ps2_code);
+                    if (ps2_code == 0x76) { draw_vga_underscore_cursor(0xffff); break; }
+                    draw_vga_underscore_cursor(0x0000);
+                    position_blinker = 0;
+                    if (ascii_char == '\n') { if (cursor_row < 57) { cursor_row++; cursor_col = 0; update_view(); } }
+                    else if (ps2_code == 0x66) {
+                        if (cursor_col > 0) { cursor_col--; shift_row_left(cursor_col, cursor_row); redraw_screen(); }
+                        else if (cursor_row > 0) { cursor_row--; cursor_col = find_row_end(cursor_row); }
+                        update_view();
+                    }
+                    else if (ascii_char) {
+                        shift_row_right(cursor_col, cursor_row);
+                        put_char_in_content(ascii_char, cursor_col, cursor_row);
+                        redraw_screen();
+                        cursor_col = (cursor_col < 119) ? cursor_col + 1 : cursor_col;
+                        update_view();
+                    }
+                }
+            }
+        }
+        if (*timer_ptr & 0b1) {
+            position_blinker = (position_blinker) ? 0 : 1;
+            if (position_blinker) draw_vga_underscore_cursor(0xffff);
+            else draw_vga_underscore_cursor(0x0000);
+            *timer_ptr = 0;
+        }
     }
 }
 
-/*
-void delay_2s() {
-    volatile int i;
-    for (i = 0; i < 20000000; i++);
-}*/
+void text_editor() {
+    clear_char();
+    clear_screen();
+    text_editor_command();
+}
+
+int execute_editor_command(char* command, int size) {
+    if (*(command + 1) == 0) { print_row(" ", 59); return 0; }
+    else if (strcmp(command + 1, "sw")) { print_row("Saving work.", 59); return SAVE_AND_EXIT; }
+    else if (strcmp(command + 1, "dr")) { print_row("Deleted row.", 59); return DELETE_ROW; }
+    else if (strcmp(command + 1, "h"))  { print_row("Opening help dialog.", 59); open_help_dialog(TEXT_HELP); return TEXT_HELP; }
+    else { print_row("Invalid command. \"h\" to open help dialog.", 59); return 0; }
+}
+
+// ============================================================
+//  MOUSE DRIVER  — partner's working version
+//  init_mouse: full reset handshake (FF → FA → AA → F4 → FA)
+//  read_mouse:  blocking, syncs on bit-3 of first byte
+//  Y-axis:      inverted inside read_mouse (positive dy = up)
+// ============================================================
+
+void flush_ps2(volatile int *ps2) {
+    while (*ps2 & 0x8000) { volatile int dump = *ps2; }
+}
 
 int wait_for_byte_timeout(volatile int *ps2, unsigned char expected, int timeout) {
     while (timeout--) {
         int data = *ps2;
         if (data & 0x8000) {
-            if ((data & 0xFF) == expected)
-                return 1;
+            if ((data & 0xFF) == expected) return 1;
         }
     }
     return 0;
 }
 
-/*
-void init_mouse() {
-    print_row("flush", 49);
-    delay_2s();
-
-    flush_ps2(ps2_ptr2);
-
-    print_row("reset send", 50);
-    delay_2s();
-
-    *ps2_ptr2 = 0xFF;
-
-    if (!wait_for_byte_timeout(ps2_ptr2, 0xFA, 5000000)) {
-        print_row("no FA", 51);
-        delay_2s();
-        return;
-    }
-
-    print_row("got FA", 51);
-    delay_2s();
-
-    if (!wait_for_byte_timeout(ps2_ptr2, 0xAA, 5000000)) {
-        print_row("no AA", 52);
-        delay_2s();
-        return;
-    }
-
-    print_row("got AA", 52);
-    delay_2s();
-
-    print_row("send F4", 54);
-    delay_2s();
-
-    *ps2_ptr2 = 0xF4;
-
-    if (!wait_for_byte_timeout(ps2_ptr2, 0xFA, 5000000)) {
-        print_row("no ACK F4", 55);
-        delay_2s();
-        return;
-    }
-
-    print_row("mouse ok", 56);
-    delay_2s();
-}
-*/
-
-
 void init_mouse() {
     flush_ps2(ps2_ptr2);
     *ps2_ptr2 = 0xFF;
-
     if (!wait_for_byte_timeout(ps2_ptr2, 0xFA, 5000000)) return;
     if (!wait_for_byte_timeout(ps2_ptr2, 0xAA, 5000000)) return;
-
     *ps2_ptr2 = 0xF4;
     wait_for_byte_timeout(ps2_ptr2, 0xFA, 5000000);
 }
 
-
-
 void read_mouse(int* dx, int* dy, int* buttons) {
-    //mouse always sends packets of 3 bytes
     unsigned char bytes[3];
     int count = 0;
 
+    // Sync: wait for a byte with bit 3 set — that is always byte 0 of a packet
     while (1) {
         int data = *ps2_ptr2;
-        if (data & 0x8000) { //data available to read in input fifo
+        if (data & 0x8000) {
             unsigned char byte = (unsigned char)(data & 0xff);
-            if (byte & 0b1000) {  // bit 3 always set in byte 0
-                bytes[0] = byte;
-                count = 1;
-                break;
-            }
+            if (byte & 0b1000) { bytes[0] = byte; count = 1; break; }
         }
     }
 
-    //read remaining bytes after valid first came through
+    // Collect the remaining 2 bytes
     while (count < 3) {
         int data = *ps2_ptr2;
-        if (data & 0x8000) {
-            bytes[count++] = (unsigned char)(data & 0xff);
-        }
+        if (data & 0x8000) bytes[count++] = (unsigned char)(data & 0xff);
     }
 
-    *buttons = bytes[0] & 0b111; //3 right bits of packet 0 are middle, right, left buttons
-    
-    *dx = (int)bytes[1] - ((bytes[0] & 0x10) ? 256 : 0);  // bit 4 of byte 0 = x sign
-    *dy = (int)bytes[2] - ((bytes[0] & 0x20) ? 256 : 0);  // bit 5 of byte0 = y sign
-    *dy = *dy * -1;
+    *buttons = bytes[0] & 0b111;
+    *dx =  (int)bytes[1] - ((bytes[0] & 0x10) ? 256 : 0);
+    *dy = ((int)bytes[2] - ((bytes[0] & 0x20) ? 256 : 0)) * -1;  // invert Y
 }
 
 void flush_mouse() {
-    while (*ps2_ptr2 & 0x8000) {
-        (void) (*ps2_ptr2); //flush mouse when not using it to avoid buffer overflow in input fifo
-    }
+    while (*ps2_ptr2 & 0x8000) (void)(*ps2_ptr2);
 }
 
 void refresh_under_mouse() {
-    for (int i = 0; i < 4; ++i) {
-        for (int j = 0; j < 4; ++j) {
+    for (int i = 0; i < 4; ++i)
+        for (int j = 0; j < 4; ++j)
             under_mouse[i][j] = *(vga_ptr + ((mouse_y + j) << 9) + mouse_x + i);
-        }
-    }
-}
-
-void draw_visual_interactive_wallpaper(short int start_color, short int end_color) {
-    int red_start = (start_color >> 11) & 0x1f;
-    int red_end = (end_color >> 11) & 0x1f;
-    int green_start = (start_color >> 5) & 0x3f;
-    int green_end = (end_color >> 5) & 0x3f;
-    int blue_start = start_color & 0x1f;
-    int blue_end = end_color & 0x1f;
-
-    for (int x = 0; x < 320; ++x) {
-        for (int y = 0; y < 240; ++y) {
-            int grad = (x * 256 / 319 + y * 256 / 239) / 2; //must multiply by 256 since otherwise, it would just go to 0. Divide by 256 later
-            int r = red_start + (red_end - red_start) * grad / 256;
-            int g = green_start + (green_end - green_start) * grad / 256;
-            int b = blue_start + (blue_end - blue_start) * grad / 256;
-
-            *(vga_ptr + (y << 9) + x) = (short int) ((r << 11) | (g << 5) | b);
-        }
-    }
-}
-
-void draw_visual_app_icons() {
-    int x = 9;
-    int y = 9;
-
-    for (int i = 0; i < LOGO_WIDTH; ++i) {
-        for (int j = 0; j < LOGO_HEIGHT; ++j) {
-            *(vga_ptr + ((y + j) << 9) + x + i) = terminal_logo[j * 40 + i];
-        }
-    }
-
-    x = x + LOGO_WIDTH + 10;
-    
-    for (int i = 0; i < LOGO_WIDTH; ++i) {
-        for (int j = 0; j < LOGO_HEIGHT; ++j) {
-            *(vga_ptr + ((y + j) << 9) + x + i) = notepad_logo[j * 40 + i];
-        }
-    }
-
-    x = x + LOGO_WIDTH + 10;
-
-    for (int i = 0; i < LOGO_WIDTH; ++i) {
-        for (int j = 0; j < LOGO_HEIGHT; ++j) {
-            *(vga_ptr + ((y + j) << 9) + x + i) = paint_logo[j * 40 + i];
-        }
-    }
 }
 
 void draw_mouse() {
-    //redraw what was under the mouse
-    for (int i = 0; i < 4; ++i) {
-        for (int j = 0; j < 4; ++j) {
+    // Step 1: restore pixels at previous position
+    for (int i = 0; i < 4; ++i)
+        for (int j = 0; j < 4; ++j)
             *(vga_ptr + ((prev_mouse_y + j) << 9) + prev_mouse_x + i) = under_mouse[i][j];
-        }
-    }
 
-    //update position
-    for (int i = 0; i < 4; ++i) {
-        for (int j = 0; j < 4; ++j) {
-            //update new under_mouse
+    // Step 2: snapshot pixels at new position
+    for (int i = 0; i < 4; ++i)
+        for (int j = 0; j < 4; ++j)
             under_mouse[i][j] = *(vga_ptr + ((mouse_y + j) << 9) + mouse_x + i);
-        }
-    }
-    //draw mouse at new position (hardcoded with this pattern)
-    /*
-    █    
-    █ █    
-    █  █  
-    ████   
-    */
+
+    // Step 3: draw cursor at new position
+    // Pattern:  █
+    //           █ █
+    //           █  █
+    //           ████
     short int color = 0x0000;
     for (int i = 0; i < 4; ++i) {
         for (int j = 0; j < 4; ++j) {
-            if (i == 0 || j == 3) color = 0x0000;
-            else if (i == 2 && j == 1) color = 0x0000;
-            else if (i == 3 && j == 2) color = 0x0000;
-            else if (i <= j) color = 0xffff;
-            else continue;
+            if      (i == 0 || j == 3)          color = 0x0000;
+            else if (i == 2 && j == 1)          color = 0x0000;
+            else if (i == 3 && j == 2)          color = 0x0000;
+            else if (i <= j)                    color = 0xffff;
+            else                                continue;
             *(vga_ptr + ((mouse_y + j) << 9) + mouse_x + i) = color;
         }
     }
 }
 
 short int add_blue_highlight(short int color) {
-    int r = ((color >> 11) & 0x1f) >> 1;       //shift one extra for red and green to tone down their color
-    int g = ((color >> 5) & 0x3f) >> 1;
+    int r = ((color >> 11) & 0x1f) >> 1;
+    int g = ((color >>  5) & 0x3f) >> 1;
     int b = (color & 0x1f) << 1;
-
     b = (b > 0x1f) ? 0x1f : b;
-
-    return (short) ((r << 11) | (g << 5) | b);
+    return (short)((r << 11) | (g << 5) | b);
 }
 
-
-//add a layer of blue over the clicked logo
-void highlight_clicked_logo(int logo_position) {
-    int x = 9 + 10 * logo_position + LOGO_WIDTH * logo_position;
-    int y = 9;
-
-    for (int i = 0; i < LOGO_WIDTH; ++i) {
-        for (int j = 0; j < LOGO_HEIGHT; ++j) {
-            *(vga_ptr + ((y + j) << 9) + x + i) = add_blue_highlight(*(vga_ptr + ((y + j) << 9) + x + i));
+void draw_visual_interactive_wallpaper(short int start_color, short int end_color) {
+    int red_start   = (start_color >> 11) & 0x1f; int red_end   = (end_color >> 11) & 0x1f;
+    int green_start = (start_color >>  5) & 0x3f; int green_end = (end_color >>  5) & 0x3f;
+    int blue_start  =  start_color        & 0x1f; int blue_end  =  end_color        & 0x1f;
+    for (int x = 0; x < 320; ++x)
+        for (int y = 0; y < 240; ++y) {
+            int grad = (x * 256 / 319 + y * 256 / 239) / 2;
+            int r = red_start   + (red_end   - red_start)   * grad / 256;
+            int g = green_start + (green_end - green_start) * grad / 256;
+            int b = blue_start  + (blue_end  - blue_start)  * grad / 256;
+            *(vga_ptr + (y << 9) + x) = (short int)((r << 11) | (g << 5) | b);
         }
-    }
+}
+
+void draw_visual_app_icons() {
+    int x = 9, y = 9;
+    for (int i = 0; i < LOGO_WIDTH; ++i)
+        for (int j = 0; j < LOGO_HEIGHT; ++j)
+            *(vga_ptr + ((y + j) << 9) + x + i) = terminal_logo[j * 40 + i];
+    x += LOGO_WIDTH + 10;
+    for (int i = 0; i < LOGO_WIDTH; ++i)
+        for (int j = 0; j < LOGO_HEIGHT; ++j)
+            *(vga_ptr + ((y + j) << 9) + x + i) = notepad_logo[j * 40 + i];
+    x += LOGO_WIDTH + 10;
+    for (int i = 0; i < LOGO_WIDTH; ++i)
+        for (int j = 0; j < LOGO_HEIGHT; ++j)
+            *(vga_ptr + ((y + j) << 9) + x + i) = paint_logo[j * 40 + i];
+}
+
+void highlight_clicked_logo(int logo_position) {
+    int x = 9 + 10 * logo_position + LOGO_WIDTH * logo_position, y = 9;
+    for (int i = 0; i < LOGO_WIDTH; ++i)
+        for (int j = 0; j < LOGO_HEIGHT; ++j)
+            *(vga_ptr + ((y + j) << 9) + x + i) = add_blue_highlight(*(vga_ptr + ((y + j) << 9) + x + i));
 }
 
 void visual_interactive_system() {
@@ -1068,120 +735,82 @@ void visual_interactive_system() {
     draw_visual_interactive_wallpaper(BLUE_GRAD_START, BLUE_GRAD_END);
     draw_visual_app_icons();
     flush_mouse();
-
-    int shell_icon_clicked, notepad_icon_clicked, paint_icon_clicked;
-    shell_icon_clicked = notepad_icon_clicked = paint_icon_clicked = 0;
+    int shell_icon_clicked = 0, notepad_icon_clicked = 0, paint_icon_clicked = 0;
     prev_mouse_x = mouse_x = 160;
     prev_mouse_y = mouse_y = 120;
-
     int prev_buttons = 0;
-
-    //Initialize under_mouse to background
-    for (int i = 0; i < 4; ++i) {
-        for (int j = 0; j < 4; ++j) {
+    for (int i = 0; i < 4; ++i)
+        for (int j = 0; j < 4; ++j)
             under_mouse[i][j] = *(vga_ptr + ((mouse_y + j) << 9) + mouse_x + i);
-        }
-    }
-
     draw_mouse();
-
     while (1) {
         int mouse_buttons, mouse_dx, mouse_dy;
         read_mouse(&mouse_dx, &mouse_dy, &mouse_buttons);
-
-        //handle mouse movement
-        mouse_x += mouse_dx;
-        mouse_y += mouse_dy;
-        if (mouse_x <= 0) mouse_x = 0;
-        else if (mouse_x >= 316) mouse_x = 316; //slightly trimmed to account for mouse width
-        if (mouse_y <= 0) mouse_y = 0;
-        else if (mouse_y >= 236) mouse_y = 236;
-
+        mouse_x += mouse_dx; mouse_y += mouse_dy;
+        if (mouse_x <= 0) mouse_x = 0; else if (mouse_x >= 316) mouse_x = 316;
+        if (mouse_y <= 0) mouse_y = 0; else if (mouse_y >= 236) mouse_y = 236;
         draw_mouse();
-
-        prev_mouse_x = mouse_x;
-        prev_mouse_y = mouse_y;
-
-        int just_clicked = (mouse_buttons & 0b1) && !(prev_buttons & 0b1); //used to detect press vs release of left mouse button
+        prev_mouse_x = mouse_x; prev_mouse_y = mouse_y;
+        int just_clicked = (mouse_buttons & 0b1) && !(prev_buttons & 0b1);
         prev_buttons = mouse_buttons;
-
-
-        if (just_clicked) {  //handle mouse click (left mouse button only for now)
-            //check if mouse clicked on an icon
-            if (mouse_y > 9 && mouse_y < 9 + LOGO_HEIGHT) { //check top bar for all 3 to reduce redundancy since all logos fall in this range
-
-                if (mouse_x > 9 && mouse_x < 9 + LOGO_WIDTH) {  //terminal logo, just break while loop
-                    notepad_icon_clicked = paint_icon_clicked = 0;   //reset other icons if they were clicked
+        if (just_clicked) {
+            if (mouse_y > 9 && mouse_y < 9 + LOGO_HEIGHT) {
+                if (mouse_x > 9 && mouse_x < 9 + LOGO_WIDTH) {
+                    notepad_icon_clicked = paint_icon_clicked = 0;
                     draw_visual_app_icons();
-                    if (shell_icon_clicked == 0) {
-                        shell_icon_clicked++;
-                        highlight_clicked_logo(SHELL_LOGO_ENCODE);
-                        refresh_under_mouse();
-                    }
+                    if (shell_icon_clicked == 0) { shell_icon_clicked++; highlight_clicked_logo(SHELL_LOGO_ENCODE); refresh_under_mouse(); }
                     else if (shell_icon_clicked == 1) break;
                 }
-
-                else if (mouse_x > LOGO_WIDTH + 19 && mouse_x < 19 + 2 * LOGO_WIDTH) {  //notepad logo, open notepad
+                else if (mouse_x > LOGO_WIDTH + 19 && mouse_x < 19 + 2 * LOGO_WIDTH) {
                     shell_icon_clicked = paint_icon_clicked = 0;
                     draw_visual_app_icons();
-                    if (notepad_icon_clicked == 0) {
-                        notepad_icon_clicked++;
-                        highlight_clicked_logo(NOTEPAD_LOGO_ENCODE);
-                        refresh_under_mouse();
-                    }
+                    if (notepad_icon_clicked == 0) { notepad_icon_clicked++; highlight_clicked_logo(NOTEPAD_LOGO_ENCODE); refresh_under_mouse(); }
                     else if (notepad_icon_clicked == 1) {
                         text_editor();
-                        //reset coming from text_editor
-                        clear_char();
-                        draw_visual_interactive_wallpaper(BLUE_GRAD_START, BLUE_GRAD_END);
-                        draw_visual_app_icons();
-                        flush_mouse();
-                        refresh_under_mouse();
-                        draw_mouse();
-                        notepad_icon_clicked = 0;
-                        prev_buttons = 0;
+                        clear_char(); draw_visual_interactive_wallpaper(BLUE_GRAD_START, BLUE_GRAD_END);
+                        draw_visual_app_icons(); flush_mouse(); refresh_under_mouse(); draw_mouse();
+                        notepad_icon_clicked = 0; prev_buttons = 0;
                     }
                 }
-
-                else if (mouse_x > 29 + 2 * LOGO_WIDTH && mouse_x < 29 + 3 * LOGO_WIDTH) {  //paint logo, open paint
+                else if (mouse_x > 29 + 2 * LOGO_WIDTH && mouse_x < 29 + 3 * LOGO_WIDTH) {
                     shell_icon_clicked = notepad_icon_clicked = 0;
                     draw_visual_app_icons();
-                    if (paint_icon_clicked == 0) {
-                        paint_icon_clicked++;
-                        highlight_clicked_logo(PAINT_LOGO_ENCODE);
-                        refresh_under_mouse();
-                    }
+                    if (paint_icon_clicked == 0) { paint_icon_clicked++; highlight_clicked_logo(PAINT_LOGO_ENCODE); refresh_under_mouse(); }
                     else if (paint_icon_clicked == 1) {
                         paint_app();
-                        clear_char();
-                        draw_visual_interactive_wallpaper(BLUE_GRAD_START, BLUE_GRAD_END);
-                        draw_visual_app_icons();
-                        flush_mouse();
-                        refresh_under_mouse();
-                        draw_mouse();
-                        paint_icon_clicked = 0;
-                        prev_buttons = 0;
+                        clear_char(); draw_visual_interactive_wallpaper(BLUE_GRAD_START, BLUE_GRAD_END);
+                        draw_visual_app_icons(); flush_mouse(); refresh_under_mouse(); draw_mouse();
+                        paint_icon_clicked = 0; prev_buttons = 0;
                     }
                 }
-
                 else {
-                    if (shell_icon_clicked || notepad_icon_clicked || paint_icon_clicked) {
-                        draw_visual_app_icons();
-                    }
+                    if (shell_icon_clicked || notepad_icon_clicked || paint_icon_clicked) draw_visual_app_icons();
                     shell_icon_clicked = notepad_icon_clicked = paint_icon_clicked = 0;
                 }
             }
-
             else {
-                if (shell_icon_clicked || notepad_icon_clicked || paint_icon_clicked) {
-                    draw_visual_app_icons();
-                }
+                if (shell_icon_clicked || notepad_icon_clicked || paint_icon_clicked) draw_visual_app_icons();
                 shell_icon_clicked = notepad_icon_clicked = paint_icon_clicked = 0;
             }
-
         }
     }
 }
+
+// ============================================================
+//  PAINT APP  — your features + partner's hardware
+//
+//  Features:
+//    - Vertical colour palette (6 swatches) on left panel
+//    - 4 eraser/brush sizes below palette
+//    - CLR button clears canvas only (panel intact)
+//    - S key saves canvas to static buffer
+//    - ESC auto-saves and exits to shell (no mouse movement needed)
+//    - Canvas preserved when changing colour or eraser size
+//    - Canvas restored on re-entry
+//    - Left button draws, right button erases
+//
+//  Hardware: uses partner's blocking read_mouse() + correct addresses
+// ============================================================
 
 #define PAINT_BG_COLOR       0xFFFF
 #define PAINT_BORDER_COLOR   0x0000
@@ -1189,39 +818,92 @@ void visual_interactive_system() {
 #define PAINT_BUTTON_COLOR   0x7BEF
 #define PAINT_ACTIVE_COLOR   0x001F
 
-#define PAINT_CANVAS_LEFT    32
-#define PAINT_CANVAS_TOP     24
+#define PAINT_PANEL_WIDTH    31
+#define PAINT_CANVAS_LEFT    31
+#define PAINT_CANVAS_TOP     0
 #define PAINT_CANVAS_RIGHT   319
 #define PAINT_CANVAS_BOTTOM  239
 
-#define PALETTE_SIZE         14
-#define PALETTE_GAP          4
-#define PALETTE_X            8
-#define PALETTE_Y            32
+#define PAINT_CANVAS_W  (PAINT_CANVAS_RIGHT  - PAINT_CANVAS_LEFT + 1)
+#define PAINT_CANVAS_H  (PAINT_CANVAS_BOTTOM - PAINT_CANVAS_TOP  + 1)
 
-static short int paint_palette[6] = {
-    0x0000, // black
-    0xF800, // red
-    0x07E0, // green
-    0x001F, // blue
-    0xFFE0, // yellow
-    0xFFFF  // white / eraser
+// ── Vertical colour palette ───────────────────────────────────────────────
+#define PALETTE_SWATCH_W  14
+#define PALETTE_SWATCH_H  14
+#define PALETTE_GAP        3
+#define PALETTE_X          2
+#define PALETTE_Y_START    4
+#define PALETTE_COUNT      6
+
+static short int paint_palette[PALETTE_COUNT] = {
+    0x0000,  // black
+    0xF800,  // red
+    0x07E0,  // green
+    0x001F,  // blue
+    0xFFE0,  // yellow
+    0xFFFF   // white
 };
 
+// ── Eraser / brush sizes ──────────────────────────────────────────────────
+#define ERASER_COUNT  4
+#define ERASER_X      2
+
+static const int eraser_radii[ERASER_COUNT] = { 0, 1, 2, 3 };
+static const int eraser_box[ERASER_COUNT]   = { 6, 10, 14, 18 };
+
+// ── CLR button ────────────────────────────────────────────────────────────
+#define CLR_BTN_X0  2
+#define CLR_BTN_Y0  210
+#define CLR_BTN_X1  28
+#define CLR_BTN_Y1  224
+
+// ── Keyboard action codes ─────────────────────────────────────────────────
+enum { PAINT_KEY_NONE = 0, PAINT_KEY_SAVE, PAINT_KEY_EXIT };
+
+// ── Persistent canvas storage ─────────────────────────────────────────────
+static short int paint_saved_canvas[PAINT_CANVAS_H][PAINT_CANVAS_W];
+static int       paint_has_saved_canvas = 0;
+
+// ── Bounding box helpers ──────────────────────────────────────────────────
+static void palette_swatch_bbox(int idx, int *x0, int *y0, int *x1, int *y1) {
+    *x0 = PALETTE_X;
+    *y0 = PALETTE_Y_START + idx * (PALETTE_SWATCH_H + PALETTE_GAP);
+    *x1 = *x0 + PALETTE_SWATCH_W - 1;
+    *y1 = *y0 + PALETTE_SWATCH_H - 1;
+}
+
+static int eraser_area_y0() {
+    int x0, y0, x1, y1;
+    palette_swatch_bbox(PALETTE_COUNT - 1, &x0, &y0, &x1, &y1);
+    return y1 + 8;
+}
+
+static void eraser_btn_bbox(int idx, int *x0, int *y0, int *x1, int *y1) {
+    int base_y = eraser_area_y0();
+    int y_off = 0;
+    for (int i = 0; i < idx; ++i) y_off += eraser_box[i] + 4;
+    *x0 = ERASER_X;
+    *y0 = base_y + y_off;
+    *x1 = *x0 + eraser_box[idx] - 1;
+    *y1 = *y0 + eraser_box[idx] - 1;
+}
+
+// ── Drawing primitives ────────────────────────────────────────────────────
 static void paint_fill_rect(int x0, int y0, int x1, int y1, short int color) {
-    if (x0 < 0) x0 = 0;
-    if (y0 < 0) y0 = 0;
+    if (x0 < 0)   x0 = 0;
+    if (y0 < 0)   y0 = 0;
     if (x1 > 319) x1 = 319;
     if (y1 > 239) y1 = 239;
-
-    for (int y = y0; y <= y1; ++y) {
-        for (int x = x0; x <= x1; ++x) {
+    for (int y = y0; y <= y1; ++y)
+        for (int x = x0; x <= x1; ++x)
             *(vga_ptr + (y << 9) + x) = color;
-        }
-    }
 }
 
 static void paint_draw_rect_outline(int x0, int y0, int x1, int y1, short int color) {
+    if (x0 < 0)   x0 = 0;
+    if (y0 < 0)   y0 = 0;
+    if (x1 > 319) x1 = 319;
+    if (y1 > 239) y1 = 239;
     for (int x = x0; x <= x1; ++x) {
         *(vga_ptr + (y0 << 9) + x) = color;
         *(vga_ptr + (y1 << 9) + x) = color;
@@ -1232,163 +914,209 @@ static void paint_draw_rect_outline(int x0, int y0, int x1, int y1, short int co
     }
 }
 
-static void paint_draw_brush_preview(int palette_index) {
-    for (int i = 0; i < 6; ++i) {
-        int x0 = PALETTE_X + i * (PALETTE_SIZE + PALETTE_GAP);
-        int y0 = PALETTE_Y;
-        int x1 = x0 + PALETTE_SIZE - 1;
-        int y1 = y0 + PALETTE_SIZE - 1;
+// ── Panel redraw (does NOT touch canvas) ─────────────────────────────────
+static void paint_draw_panel(int sel_color_idx, int sel_eraser_idx) {
+    paint_fill_rect(0, 0, PAINT_PANEL_WIDTH - 1, 239, PAINT_PANEL_COLOR);
+    for (int y = 0; y < 240; ++y)
+        *(vga_ptr + (y << 9) + PAINT_PANEL_WIDTH) = PAINT_BORDER_COLOR;
 
+    // Colour swatches
+    for (int i = 0; i < PALETTE_COUNT; ++i) {
+        int x0, y0, x1, y1;
+        palette_swatch_bbox(i, &x0, &y0, &x1, &y1);
         paint_fill_rect(x0, y0, x1, y1, paint_palette[i]);
-        paint_draw_rect_outline(
-            x0 - 1,
-            y0 - 1,
-            x1 + 1,
-            y1 + 1,
-            (i == palette_index) ? PAINT_ACTIVE_COLOR : PAINT_BORDER_COLOR
-        );
+        short int border = (i == sel_color_idx) ? PAINT_ACTIVE_COLOR : PAINT_BORDER_COLOR;
+        paint_draw_rect_outline(x0-1, y0-1, x1+1, y1+1, border);
     }
+
+    // Eraser-size buttons
+    for (int i = 0; i < ERASER_COUNT; ++i) {
+        int x0, y0, x1, y1;
+        eraser_btn_bbox(i, &x0, &y0, &x1, &y1);
+        paint_fill_rect(x0, y0, x1, y1, 0xBDF7);
+        short int border = (i == sel_eraser_idx) ? PAINT_ACTIVE_COLOR : PAINT_BORDER_COLOR;
+        paint_draw_rect_outline(x0-1, y0-1, x1+1, y1+1, border);
+    }
+
+    // CLR button
+    paint_fill_rect(CLR_BTN_X0, CLR_BTN_Y0, CLR_BTN_X1, CLR_BTN_Y1, PAINT_BUTTON_COLOR);
+    paint_draw_rect_outline(CLR_BTN_X0-1, CLR_BTN_Y0-1, CLR_BTN_X1+1, CLR_BTN_Y1+1, PAINT_BORDER_COLOR);
+    *(char_ptr + (52 << 7) + 0) = 'C';
+    *(char_ptr + (52 << 7) + 1) = 'L';
+    *(char_ptr + (52 << 7) + 2) = 'R';
 }
 
-static void paint_draw_ui(int palette_index) {
+// ── Canvas save / restore ─────────────────────────────────────────────────
+static void paint_save_canvas(void) {
+    for (int y = 0; y < PAINT_CANVAS_H; ++y)
+        for (int x = 0; x < PAINT_CANVAS_W; ++x)
+            paint_saved_canvas[y][x] =
+                *(vga_ptr + ((PAINT_CANVAS_TOP + y) << 9) + (PAINT_CANVAS_LEFT + x));
+    paint_has_saved_canvas = 1;
+}
+
+static void paint_restore_canvas(void) {
+    if (!paint_has_saved_canvas) {
+        paint_fill_rect(PAINT_CANVAS_LEFT, PAINT_CANVAS_TOP,
+                        PAINT_CANVAS_RIGHT, PAINT_CANVAS_BOTTOM, PAINT_BG_COLOR);
+        return;
+    }
+    for (int y = 0; y < PAINT_CANVAS_H; ++y)
+        for (int x = 0; x < PAINT_CANVAS_W; ++x)
+            *(vga_ptr + ((PAINT_CANVAS_TOP + y) << 9) + (PAINT_CANVAS_LEFT + x)) =
+                paint_saved_canvas[y][x];
+}
+
+// ── Full UI init: restore saved canvas + draw panel ───────────────────────
+static void paint_init_ui(int sel_color_idx, int sel_eraser_idx) {
     clear_char();
-    clear_screen();
-
-    paint_fill_rect(0, 0, 319, 23, PAINT_PANEL_COLOR);
-    paint_fill_rect(0, 24, 31, 239, PAINT_PANEL_COLOR);
-    paint_fill_rect(PAINT_CANVAS_LEFT, PAINT_CANVAS_TOP, PAINT_CANVAS_RIGHT, PAINT_CANVAS_BOTTOM, PAINT_BG_COLOR);
-
-    paint_draw_rect_outline(PAINT_CANVAS_LEFT - 1, PAINT_CANVAS_TOP - 1,
-                            PAINT_CANVAS_RIGHT, PAINT_CANVAS_BOTTOM, PAINT_BORDER_COLOR);
-
-    paint_fill_rect(6, 6, 24, 20, PAINT_BUTTON_COLOR);      // clear button box
-    paint_fill_rect(34, 6, 52, 20, PAINT_BUTTON_COLOR);     // brush preview box
-
-    print_row(" Paint app  ESC=exit", 0);
-    print_row(" Click CLR box to wipe", 1);
-    print_row(" Left draw, right erase", 2);
-
-    paint_draw_brush_preview(palette_index);
-    paint_fill_rect(39, 9, 47, 17, paint_palette[palette_index]);
-    paint_draw_rect_outline(34, 6, 52, 20, PAINT_BORDER_COLOR);
+    paint_restore_canvas();
+    paint_draw_panel(sel_color_idx, sel_eraser_idx);
 }
 
+// ── Hit-test helpers ──────────────────────────────────────────────────────
 static int paint_palette_hit(int x, int y) {
-    for (int i = 0; i < 6; ++i) {
-        int x0 = PALETTE_X + i * (PALETTE_SIZE + PALETTE_GAP);
-        int y0 = PALETTE_Y;
-        int x1 = x0 + PALETTE_SIZE - 1;
-        int y1 = y0 + PALETTE_SIZE - 1;
+    for (int i = 0; i < PALETTE_COUNT; ++i) {
+        int x0, y0, x1, y1;
+        palette_swatch_bbox(i, &x0, &y0, &x1, &y1);
+        if (x >= x0 && x <= x1 && y >= y0 && y <= y1) return i;
+    }
+    return -1;
+}
 
-        if (x >= x0 && x <= x1 && y >= y0 && y <= y1) {
-            return i;
-        }
+static int paint_eraser_hit(int x, int y) {
+    for (int i = 0; i < ERASER_COUNT; ++i) {
+        int x0, y0, x1, y1;
+        eraser_btn_bbox(i, &x0, &y0, &x1, &y1);
+        if (x >= x0 && x <= x1 && y >= y0 && y <= y1) return i;
     }
     return -1;
 }
 
 static int paint_in_canvas(int x, int y) {
     return x >= PAINT_CANVAS_LEFT && x <= PAINT_CANVAS_RIGHT &&
-           y >= PAINT_CANVAS_TOP && y <= PAINT_CANVAS_BOTTOM;
+           y >= PAINT_CANVAS_TOP  && y <= PAINT_CANVAS_BOTTOM;
 }
 
-static void paint_plot_brush(int x, int y, short int color) {
-    for (int dy = -1; dy <= 1; ++dy) {
-        for (int dx = -1; dx <= 1; ++dx) {
-            int px = x + dx;
-            int py = y + dy;
-            if (paint_in_canvas(px, py)) {
+static int paint_clr_hit(int x, int y) {
+    return x >= CLR_BTN_X0 && x <= CLR_BTN_X1 &&
+           y >= CLR_BTN_Y0 && y <= CLR_BTN_Y1;
+}
+
+// ── Brush plot ────────────────────────────────────────────────────────────
+static void paint_plot_brush(int x, int y, short int color, int radius) {
+    for (int dy = -radius; dy <= radius; ++dy)
+        for (int dx = -radius; dx <= radius; ++dx) {
+            int px = x + dx, py = y + dy;
+            if (paint_in_canvas(px, py))
                 *(vga_ptr + (py << 9) + px) = color;
-            }
         }
-    }
 }
 
-static int paint_keyboard_exit_requested() {
+// ── Keyboard: S saves, ESC exits — non-blocking poll ─────────────────────
+static int paint_keyboard_action() {
     static int skip_next = 0;
-    static int extended = 0;
+    static int extended  = 0;
 
     int ps2_scan = *ps2_ptr;
-    if (!(ps2_scan & 0x8000)) return 0;
+    if (!(ps2_scan & 0x8000)) return PAINT_KEY_NONE;
 
     unsigned char ps2_code = (unsigned char)(ps2_scan & 0xFF);
 
-    if (skip_next > 0) {
-        skip_next--;
-        return 0;
-    }
-    if (ps2_code == 0xF0) {
-        skip_next = 1;
-        extended = 0;
-        return 0;
-    }
-    if (ps2_code == 0xE0) {
-        extended = 1;
-        return 0;
-    }
+    if (ps2_code == 0xF0) { skip_next = 1; extended = 0; return PAINT_KEY_NONE; }
+    if (skip_next > 0)    { skip_next--;               return PAINT_KEY_NONE; }
+    if (ps2_code == 0xE0) { extended  = 1;             return PAINT_KEY_NONE; }
+    if (extended)         { extended  = 0;             return PAINT_KEY_NONE; }
 
-    if (extended) {
-        extended = 0;
-        return 0;
-    }
-
-    return (ps2_code == 0x76);
+    if (ps2_code == 0x1B) return PAINT_KEY_SAVE;  // S make code
+    if (ps2_code == 0x76) return PAINT_KEY_EXIT;  // ESC make code
+    return PAINT_KEY_NONE;
 }
 
+// ── paint_app ─────────────────────────────────────────────────────────────
 void paint_app() {
     int palette_index = 0;
-    int prev_buttons = 0;
+    int eraser_index  = 0;
+    int prev_buttons  = 0;
 
-    paint_draw_ui(palette_index);
+    paint_init_ui(palette_index, eraser_index);
     flush_mouse();
 
-    prev_mouse_x = mouse_x = 160;
-    prev_mouse_y = mouse_y = 120;
-
+    prev_mouse_x = mouse_x = (PAINT_CANVAS_LEFT + PAINT_CANVAS_RIGHT)  / 2;
+    prev_mouse_y = mouse_y = (PAINT_CANVAS_TOP  + PAINT_CANVAS_BOTTOM) / 2;
     refresh_under_mouse();
     draw_mouse();
 
     while (1) {
-        if (paint_keyboard_exit_requested()) {
-            break;
+        // ── Keyboard checked FIRST — non-blocking so ESC exits immediately ──
+        int key = paint_keyboard_action();
+
+        if (key == PAINT_KEY_SAVE) {
+            // Erase cursor, snapshot canvas, restore cursor
+            for (int i = 0; i < 4; ++i)
+                for (int j = 0; j < 4; ++j)
+                    *(vga_ptr + ((mouse_y + j) << 9) + mouse_x + i) = under_mouse[i][j];
+            paint_save_canvas();
+            refresh_under_mouse();
+            draw_mouse();
+            // Fall through to read_mouse() so loop stays alive
+        }
+        else if (key == PAINT_KEY_EXIT) {
+            // Erase cursor, auto-save, return — NO read_mouse() call here
+            for (int i = 0; i < 4; ++i)
+                for (int j = 0; j < 4; ++j)
+                    *(vga_ptr + ((mouse_y + j) << 9) + mouse_x + i) = under_mouse[i][j];
+            paint_save_canvas();
+            break;  // immediate exit without waiting for a mouse packet
         }
 
+        // ── Mouse — blocking read (partner's version, Y already inverted) ──
         int mouse_dx, mouse_dy, mouse_buttons;
         read_mouse(&mouse_dx, &mouse_dy, &mouse_buttons);
 
         mouse_x += mouse_dx;
-        mouse_y += mouse_dy;
-        if (mouse_x < 0) mouse_x = 0;
-        else if (mouse_x > 316) mouse_x = 316;
-        if (mouse_y < 0) mouse_y = 0;
-        else if (mouse_y > 236) mouse_y = 236;
+        mouse_y += mouse_dy;  // dy already inverted by read_mouse()
+        if (mouse_x < 0)   mouse_x = 0;
+        if (mouse_x > 316) mouse_x = 316;
+        if (mouse_y < 0)   mouse_y = 0;
+        if (mouse_y > 236) mouse_y = 236;
 
-        int just_left_clicked = (mouse_buttons & 0b001) && !(prev_buttons & 0b001);
-        int just_right_clicked = (mouse_buttons & 0b010) && !(prev_buttons & 0b010);
+        int just_left  = (mouse_buttons & 0b001) && !(prev_buttons & 0b001);
+        int just_right = (mouse_buttons & 0b010) && !(prev_buttons & 0b010);
 
-        if (just_left_clicked) {
-            if (mouse_x >= 6 && mouse_x <= 24 && mouse_y >= 6 && mouse_y <= 20) {
-                paint_draw_ui(palette_index);
-            }
-            else {
-                int picked = paint_palette_hit(mouse_x, mouse_y);
-                if (picked >= 0) {
-                    palette_index = picked;
-                    paint_draw_ui(palette_index);
+        // ── Left click: colour swatch / eraser button / CLR ──────────────
+        if (just_left) {
+            if (paint_clr_hit(mouse_x, mouse_y)) {
+                paint_fill_rect(PAINT_CANVAS_LEFT, PAINT_CANVAS_TOP,
+                                PAINT_CANVAS_RIGHT, PAINT_CANVAS_BOTTOM, PAINT_BG_COLOR);
+            } else {
+                int picked_color  = paint_palette_hit(mouse_x, mouse_y);
+                int picked_eraser = paint_eraser_hit(mouse_x, mouse_y);
+                if (picked_color >= 0 && picked_color != palette_index) {
+                    palette_index = picked_color;
+                    paint_draw_panel(palette_index, eraser_index); // panel only
+                }
+                if (picked_eraser >= 0 && picked_eraser != eraser_index) {
+                    eraser_index = picked_eraser;
+                    paint_draw_panel(palette_index, eraser_index);
                 }
             }
         }
 
-        if ((mouse_buttons & 0b001) && paint_in_canvas(mouse_x, mouse_y)) {
-            paint_plot_brush(mouse_x, mouse_y, paint_palette[palette_index]);
-        }
-        if ((mouse_buttons & 0b010) && paint_in_canvas(mouse_x, mouse_y)) {
-            paint_plot_brush(mouse_x, mouse_y, PAINT_BG_COLOR);
-        }
+        // ── Held left → draw ─────────────────────────────────────────────
+        if ((mouse_buttons & 0b001) && paint_in_canvas(mouse_x, mouse_y))
+            paint_plot_brush(mouse_x, mouse_y,
+                             paint_palette[palette_index],
+                             eraser_radii[eraser_index]);
 
-        if (just_right_clicked && mouse_x >= 6 && mouse_x <= 24 && mouse_y >= 6 && mouse_y <= 20) {
-            paint_draw_ui(palette_index);
-        }
+        // ── Held right → erase ───────────────────────────────────────────
+        if ((mouse_buttons & 0b010) && paint_in_canvas(mouse_x, mouse_y))
+            paint_plot_brush(mouse_x, mouse_y, PAINT_BG_COLOR, eraser_radii[eraser_index]);
+
+        // ── Right-click on CLR → also wipe canvas ────────────────────────
+        if (just_right && paint_clr_hit(mouse_x, mouse_y))
+            paint_fill_rect(PAINT_CANVAS_LEFT, PAINT_CANVAS_TOP,
+                            PAINT_CANVAS_RIGHT, PAINT_CANVAS_BOTTOM, PAINT_BG_COLOR);
 
         prev_buttons = mouse_buttons;
         draw_mouse();
@@ -1400,162 +1128,97 @@ void paint_app() {
     clear_char();
 }
 
-
+// ============================================================
+//  SHELL
+// ============================================================
 void main_shell() {
-	clear_screen();
-	clear_char();
-	/*
-	char curr_user_buff[80] = {'>', 0};	//Size for a whole row (80 chars should be plenty)
-	char prev_user_buffs[5][80] = {0};	//Keep 5 last lines of shell for user memory
-	*/
-	char user_buffs[SHELL_ROWS][80] = {0};
-	int buff_sizes[SHELL_ROWS] = {0};			//Start at 1 since first char is always '>' and is immutable
-	short int buff_colors[SHELL_ROWS] = {0};
+    clear_screen();
+    clear_char();
+    char user_buffs[SHELL_ROWS][80]   = {0};
+    int  buff_sizes[SHELL_ROWS]       = {0};
+    short int buff_colors[SHELL_ROWS] = {0};
 
-	for (int i = 0; i < SHELL_ROWS; ++i) {		//Initialize prev buffs with '>'
-		user_buffs[i][0] = '>';
-		buff_sizes[i] = 1;
-		print_row(user_buffs[i], i);
-	}
+    for (int i = 0; i < SHELL_ROWS; ++i) {
+        user_buffs[i][0] = '>';
+        buff_sizes[i] = 1;
+        print_row(user_buffs[i], i);
+    }
+    buff_colors[ACTIVE_ROW] = 0x001f;
+    draw_shell_arrow_box(ACTIVE_ROW, buff_colors[ACTIVE_ROW]);
 
-	buff_colors[ACTIVE_ROW] = 0x001f; //blue for active row
-	draw_shell_arrow_box(ACTIVE_ROW, buff_colors[ACTIVE_ROW]);
+    unsigned char ps2_code = 0;
+    int ps2_scan;
+    int skip_next = 0, extended = 0, last_line = ACTIVE_ROW;
 
-	unsigned char ps2_code = 0;
-	int ps2_scan;
-	
-	int skip_next = 0;
-	int extended = 0;
-	int last_line = ACTIVE_ROW;
-
-	while (1) {
-		flush_mouse();
-		ps2_scan = *ps2_ptr;
-		if (ps2_scan & 0x8000) {	//Something to read from buffer
-			ps2_code = (unsigned char) (ps2_scan & 0xff);		//Get ps2 data
-			
-			if (skip_next > 0) {
-				skip_next--;
-			}
-			else if (ps2_code == 0xf0) {
-				skip_next = 1;
-				extended = 0;
-			}
-			else if (ps2_code == 0xe0) {	//handle extended ps2 code
-				extended = 1;
-			}
-			else {
-				if (extended) {
-					extended = 0;
-					if (ps2_code == 0x75 && last_line > 0) {		//Up arrow handling
-						//copy row at --position into active row
-						last_line--;
-						for (int i = 1; i < 80; ++i) {
-							user_buffs[ACTIVE_ROW][i] = user_buffs[last_line][i];
-						}
-						buff_sizes[ACTIVE_ROW] = buff_sizes[last_line];
-					}
-					else if (ps2_code == 0x72) {				//Down arrow handling
-						last_line++;
-						if (last_line >= ACTIVE_ROW) {
-							last_line = ACTIVE_ROW;
-							for (int i = 1; i < 80; ++i) {
-								user_buffs[ACTIVE_ROW][i] = 0x00;
-							}
-							buff_sizes[ACTIVE_ROW] = 1;
-						}
-						else {
-							for (int i = 1; i < 80; ++i) {
-								user_buffs[ACTIVE_ROW][i] = user_buffs[last_line][i];
-							}
-							buff_sizes[ACTIVE_ROW] = buff_sizes[last_line];
-						}
-					}
-				}
-
-				else {
-					if (ps2_code == 0x5A) {			//If user presses enter, handle current command
-						for (int i = 0; i < SHELL_ROWS; ++i) {
-							draw_shell_arrow_box(i, 0x0000);
-						}
-						buff_colors[ACTIVE_ROW] = execute_command(user_buffs[ACTIVE_ROW], buff_sizes[ACTIVE_ROW]);
-						//Now, copy current buffer and its size into previous to keep track and clear current
-						//in other words, shift buffers up
-						for (int i = 0; i < SHELL_ROWS - 1; ++i) {
-							for (int j = 1; j < 80; ++j) {
-								user_buffs[i][j] = user_buffs[i+1][j];
-							}
-							buff_sizes[i] = buff_sizes[i+1];
-							buff_colors[i] = buff_colors[i+1];
-						}
-						for (int i = 1; i < 80; ++i) {
-							user_buffs[ACTIVE_ROW][i] = 0;
-						}
-						buff_sizes[ACTIVE_ROW] = 1;
-						buff_colors[ACTIVE_ROW] = 0x001f;
-
-						for (int i = 0; i < SHELL_ROWS; ++i) {
-							print_row(user_buffs[i], i);
-							draw_shell_arrow_box(i, buff_colors[i]);
-						}
-						last_line = ACTIVE_ROW;
-					}
-
-					else if (ps2_code == 0x66) {	//Backspace
-						if (buff_sizes[ACTIVE_ROW] > 1) {
-							buff_sizes[ACTIVE_ROW]--;
-						}
-						user_buffs[ACTIVE_ROW][buff_sizes[ACTIVE_ROW]] = 0;		
-					}
-
-					else if (ps2_code != 0x76) {	//Not ESC 		code for ESC is 0x76 (ESC to close program)
-						char ascii_char = ps2_to_ascii(ps2_code);
-						if (buff_sizes[ACTIVE_ROW] < 78) {		//Leave 1 char at the end for null-termination always
-							user_buffs[ACTIVE_ROW][buff_sizes[ACTIVE_ROW]++] = ascii_char;
-						}
-					}
-					
-					else break;		//Escape pressed
-				}
-
-				print_row(user_buffs[ACTIVE_ROW], ACTIVE_ROW);
-			}
-		}
-	
-	}
+    while (1) {
+        flush_mouse();
+        ps2_scan = *ps2_ptr;
+        if (ps2_scan & 0x8000) {
+            ps2_code = (unsigned char)(ps2_scan & 0xff);
+            if (skip_next > 0) { skip_next--; }
+            else if (ps2_code == 0xf0) { skip_next = 1; extended = 0; }
+            else if (ps2_code == 0xe0) { extended = 1; }
+            else {
+                if (extended) {
+                    extended = 0;
+                    if (ps2_code == 0x75 && last_line > 0) {
+                        last_line--;
+                        for (int i = 1; i < 80; ++i) user_buffs[ACTIVE_ROW][i] = user_buffs[last_line][i];
+                        buff_sizes[ACTIVE_ROW] = buff_sizes[last_line];
+                    }
+                    else if (ps2_code == 0x72) {
+                        last_line++;
+                        if (last_line >= ACTIVE_ROW) {
+                            last_line = ACTIVE_ROW;
+                            for (int i = 1; i < 80; ++i) user_buffs[ACTIVE_ROW][i] = 0x00;
+                            buff_sizes[ACTIVE_ROW] = 1;
+                        } else {
+                            for (int i = 1; i < 80; ++i) user_buffs[ACTIVE_ROW][i] = user_buffs[last_line][i];
+                            buff_sizes[ACTIVE_ROW] = buff_sizes[last_line];
+                        }
+                    }
+                } else {
+                    if (ps2_code == 0x5A) {
+                        for (int i = 0; i < SHELL_ROWS; ++i) draw_shell_arrow_box(i, 0x0000);
+                        buff_colors[ACTIVE_ROW] = execute_command(user_buffs[ACTIVE_ROW], buff_sizes[ACTIVE_ROW]);
+                        for (int i = 0; i < SHELL_ROWS - 1; ++i) {
+                            for (int j = 1; j < 80; ++j) user_buffs[i][j] = user_buffs[i+1][j];
+                            buff_sizes[i]  = buff_sizes[i+1];
+                            buff_colors[i] = buff_colors[i+1];
+                        }
+                        for (int i = 1; i < 80; ++i) user_buffs[ACTIVE_ROW][i] = 0;
+                        buff_sizes[ACTIVE_ROW]  = 1;
+                        buff_colors[ACTIVE_ROW] = 0x001f;
+                        for (int i = 0; i < SHELL_ROWS; ++i) {
+                            print_row(user_buffs[i], i);
+                            draw_shell_arrow_box(i, buff_colors[i]);
+                        }
+                        last_line = ACTIVE_ROW;
+                    }
+                    else if (ps2_code == 0x66) {
+                        if (buff_sizes[ACTIVE_ROW] > 1) buff_sizes[ACTIVE_ROW]--;
+                        user_buffs[ACTIVE_ROW][buff_sizes[ACTIVE_ROW]] = 0;
+                    }
+                    else if (ps2_code != 0x76) {
+                        char ascii_char = ps2_to_ascii(ps2_code);
+                        if (buff_sizes[ACTIVE_ROW] < 78)
+                            user_buffs[ACTIVE_ROW][buff_sizes[ACTIVE_ROW]++] = ascii_char;
+                    }
+                    else break;
+                }
+                print_row(user_buffs[ACTIVE_ROW], ACTIVE_ROW);
+            }
+        }
+    }
 }
 
 int main(void) {
-	//Set up timer
-	*timer_ptr = 0;
-	*(timer_ptr + 2) = BLINK_DELAY;
-	*(timer_ptr + 3) = (BLINK_DELAY >> 16);
-	*(timer_ptr + 1) = 0b0110;
-
-	//set up mouse
-	init_mouse();
-
-	/*
-	print_row("kbd test", 40);
-
-	while (1) {
-		int data = *ps2_ptr;
-		if (data & 0x8000) {
-			unsigned char byte = data & 0xFF;
-
-			char msg[4];
-			msg[0] = "0123456789ABCDEF"[byte >> 4];
-			msg[1] = "0123456789ABCDEF"[byte & 0xF];
-			msg[2] = '\0';
-
-			print_row(msg, 41);
-		}
-	}
-	*/
-	
-	main_shell();		//Run main shell loop
-	print_row(">exited.", 5);
-	
-	return 0;
+    *timer_ptr = 0;
+    *(timer_ptr + 2) = BLINK_DELAY;
+    *(timer_ptr + 3) = (BLINK_DELAY >> 16);
+    *(timer_ptr + 1) = 0b0110;
+    init_mouse();
+    main_shell();
+    print_row(">exited.", 5);
+    return 0;
 }
-
