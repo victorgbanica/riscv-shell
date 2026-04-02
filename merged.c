@@ -9,7 +9,6 @@
 
 void draw_picture_array();
 
-// array size is 3200
 static const short paint_logo[]  = {
   0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 
   0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 
@@ -52,7 +51,6 @@ static const short paint_logo[]  = {
   0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e, 0xee5e
 };
 
-// array size is 3200
 static const short terminal_logo[]  = {
   0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
   0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
@@ -93,7 +91,6 @@ static const short terminal_logo[]  = {
   0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000
 };
 
-// array size is 3200
 static const short notepad_logo[]  = {
   0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xfc10, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 
   0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xfc10, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 
@@ -131,7 +128,6 @@ static const short notepad_logo[]  = {
   0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xfd75, 0xfc10, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff
 };
 
-// array size is 37820
 static const short ahmed[AHMED_HEIGHT * AHMED_WIDTH] = {0};
 
 #endif
@@ -157,9 +153,7 @@ void draw_shell_arrow_box(int row, short int color);
 #ifndef TEXT_EDITOR
 #define TEXT_EDITOR
 
-// ── Hardware addresses from partner's working version ──────────────────────
-// KEYBOARD = 0xff200108, MOUSE = 0xff200100  (swapped vs standard DE1-SoC docs)
-#define KEYBOARD_BASE 0xff200108
+#define KEYBOARD_BASE 0xff200100
 #define CHAR_BUFFER   0x9000000
 #define VGA_BUFFER    0x8000000
 #define TIMER_BASE    0xff202000
@@ -206,8 +200,7 @@ void shift_row_left(int from_col, int row);
 #ifndef VISUAL_SYSTEM
 #define VISUAL_SYSTEM
 
-// ── Mouse address from partner's working version ──────────────────────────
-#define MOUSE_BASE 0xff200100
+#define MOUSE_BASE 0xff200108
 #define BLUE_GRAD_START 0x049f
 #define BLUE_GRAD_END   0x019f
 
@@ -224,6 +217,7 @@ short int under_mouse[4][4] = {0};
 void wait_for_byte(volatile int *ps2, unsigned char expected);
 void init_mouse();
 void paint_app(void);
+int read_mouse_nb(int* dx, int* dy, int* buttons);
 void read_mouse(int* dx, int* dy, int* buttons);
 void flush_mouse();
 void refresh_under_mouse();
@@ -593,13 +587,6 @@ int execute_editor_command(char* command, int size) {
     else { print_row("Invalid command. \"h\" to open help dialog.", 59); return 0; }
 }
 
-// ============================================================
-//  MOUSE DRIVER  — partner's working version
-//  init_mouse: full reset handshake (FF → FA → AA → F4 → FA)
-//  read_mouse:  blocking, syncs on bit-3 of first byte
-//  Y-axis:      inverted inside read_mouse (positive dy = up)
-// ============================================================
-
 void flush_ps2(volatile int *ps2) {
     while (*ps2 & 0x8000) { volatile int dump = *ps2; }
 }
@@ -621,30 +608,42 @@ void init_mouse() {
     if (!wait_for_byte_timeout(ps2_ptr2, 0xAA, 5000000)) return;
     *ps2_ptr2 = 0xF4;
     wait_for_byte_timeout(ps2_ptr2, 0xFA, 5000000);
+    flush_ps2(ps2_ptr2);
+}
+
+static unsigned char mouse_buf[3];
+static int mouse_buf_count = 0;
+static int mouse_synced = 0;
+
+int read_mouse_nb(int* dx, int* dy, int* buttons) {
+    while (*ps2_ptr2 & 0x8000) {
+        unsigned char byte = (unsigned char)(*ps2_ptr2 & 0xFF);
+
+        if (!mouse_synced) {
+            if (byte & 0x08) {
+                mouse_buf[0] = byte;
+                mouse_buf_count = 1;
+                mouse_synced = 1;
+            }
+            continue;
+        }
+
+        mouse_buf[mouse_buf_count++] = byte;
+
+        if (mouse_buf_count == 3) {
+            mouse_buf_count = 0;
+            mouse_synced = 0;
+            *buttons = mouse_buf[0] & 0x07;
+            *dx = (int)mouse_buf[1] - ((mouse_buf[0] & 0x10) ? 256 : 0);
+            *dy = ((int)mouse_buf[2] - ((mouse_buf[0] & 0x20) ? 256 : 0)) * -1;
+            return 1;
+        }
+    }
+    return 0;
 }
 
 void read_mouse(int* dx, int* dy, int* buttons) {
-    unsigned char bytes[3];
-    int count = 0;
-
-    // Sync: wait for a byte with bit 3 set — that is always byte 0 of a packet
-    while (1) {
-        int data = *ps2_ptr2;
-        if (data & 0x8000) {
-            unsigned char byte = (unsigned char)(data & 0xff);
-            if (byte & 0b1000) { bytes[0] = byte; count = 1; break; }
-        }
-    }
-
-    // Collect the remaining 2 bytes
-    while (count < 3) {
-        int data = *ps2_ptr2;
-        if (data & 0x8000) bytes[count++] = (unsigned char)(data & 0xff);
-    }
-
-    *buttons = bytes[0] & 0b111;
-    *dx =  (int)bytes[1] - ((bytes[0] & 0x10) ? 256 : 0);
-    *dy = ((int)bytes[2] - ((bytes[0] & 0x20) ? 256 : 0)) * -1;  // invert Y
+    while (!read_mouse_nb(dx, dy, buttons));
 }
 
 void flush_mouse() {
@@ -658,21 +657,21 @@ void refresh_under_mouse() {
 }
 
 void draw_mouse() {
-    // Step 1: restore pixels at previous position
+    
     for (int i = 0; i < 4; ++i)
         for (int j = 0; j < 4; ++j)
             *(vga_ptr + ((prev_mouse_y + j) << 9) + prev_mouse_x + i) = under_mouse[i][j];
 
-    // Step 2: snapshot pixels at new position
+    
     for (int i = 0; i < 4; ++i)
         for (int j = 0; j < 4; ++j)
             under_mouse[i][j] = *(vga_ptr + ((mouse_y + j) << 9) + mouse_x + i);
 
-    // Step 3: draw cursor at new position
-    // Pattern:  █
-    //           █ █
-    //           █  █
-    //           ████
+    
+    
+    
+    
+    
     short int color = 0x0000;
     for (int i = 0; i < 4; ++i) {
         for (int j = 0; j < 4; ++j) {
@@ -796,22 +795,6 @@ void visual_interactive_system() {
     }
 }
 
-// ============================================================
-//  PAINT APP  — your features + partner's hardware
-//
-//  Features:
-//    - Vertical colour palette (6 swatches) on left panel
-//    - 4 eraser/brush sizes below palette
-//    - CLR button clears canvas only (panel intact)
-//    - S key saves canvas to static buffer
-//    - ESC auto-saves and exits to shell (no mouse movement needed)
-//    - Canvas preserved when changing colour or eraser size
-//    - Canvas restored on re-entry
-//    - Left button draws, right button erases
-//
-//  Hardware: uses partner's blocking read_mouse() + correct addresses
-// ============================================================
-
 #define PAINT_BG_COLOR       0xFFFF
 #define PAINT_BORDER_COLOR   0x0000
 #define PAINT_PANEL_COLOR    0xC618
@@ -827,7 +810,6 @@ void visual_interactive_system() {
 #define PAINT_CANVAS_W  (PAINT_CANVAS_RIGHT  - PAINT_CANVAS_LEFT + 1)
 #define PAINT_CANVAS_H  (PAINT_CANVAS_BOTTOM - PAINT_CANVAS_TOP  + 1)
 
-// ── Vertical colour palette ───────────────────────────────────────────────
 #define PALETTE_SWATCH_W  14
 #define PALETTE_SWATCH_H  14
 #define PALETTE_GAP        3
@@ -836,35 +818,30 @@ void visual_interactive_system() {
 #define PALETTE_COUNT      6
 
 static short int paint_palette[PALETTE_COUNT] = {
-    0x0000,  // black
-    0xF800,  // red
-    0x07E0,  // green
-    0x001F,  // blue
-    0xFFE0,  // yellow
-    0xFFFF   // white
+    0x0000,  
+    0xF800,  
+    0x07E0,  
+    0x001F,  
+    0xFFE0,  
+    0xFFFF   
 };
 
-// ── Eraser / brush sizes ──────────────────────────────────────────────────
 #define ERASER_COUNT  4
 #define ERASER_X      2
 
 static const int eraser_radii[ERASER_COUNT] = { 0, 1, 2, 3 };
 static const int eraser_box[ERASER_COUNT]   = { 6, 10, 14, 18 };
 
-// ── CLR button ────────────────────────────────────────────────────────────
 #define CLR_BTN_X0  2
 #define CLR_BTN_Y0  210
 #define CLR_BTN_X1  28
 #define CLR_BTN_Y1  224
 
-// ── Keyboard action codes ─────────────────────────────────────────────────
 enum { PAINT_KEY_NONE = 0, PAINT_KEY_SAVE, PAINT_KEY_EXIT };
 
-// ── Persistent canvas storage ─────────────────────────────────────────────
 static short int paint_saved_canvas[PAINT_CANVAS_H][PAINT_CANVAS_W];
 static int       paint_has_saved_canvas = 0;
 
-// ── Bounding box helpers ──────────────────────────────────────────────────
 static void palette_swatch_bbox(int idx, int *x0, int *y0, int *x1, int *y1) {
     *x0 = PALETTE_X;
     *y0 = PALETTE_Y_START + idx * (PALETTE_SWATCH_H + PALETTE_GAP);
@@ -888,7 +865,6 @@ static void eraser_btn_bbox(int idx, int *x0, int *y0, int *x1, int *y1) {
     *y1 = *y0 + eraser_box[idx] - 1;
 }
 
-// ── Drawing primitives ────────────────────────────────────────────────────
 static void paint_fill_rect(int x0, int y0, int x1, int y1, short int color) {
     if (x0 < 0)   x0 = 0;
     if (y0 < 0)   y0 = 0;
@@ -914,13 +890,12 @@ static void paint_draw_rect_outline(int x0, int y0, int x1, int y1, short int co
     }
 }
 
-// ── Panel redraw (does NOT touch canvas) ─────────────────────────────────
 static void paint_draw_panel(int sel_color_idx, int sel_eraser_idx) {
     paint_fill_rect(0, 0, PAINT_PANEL_WIDTH - 1, 239, PAINT_PANEL_COLOR);
     for (int y = 0; y < 240; ++y)
         *(vga_ptr + (y << 9) + PAINT_PANEL_WIDTH) = PAINT_BORDER_COLOR;
 
-    // Colour swatches
+    
     for (int i = 0; i < PALETTE_COUNT; ++i) {
         int x0, y0, x1, y1;
         palette_swatch_bbox(i, &x0, &y0, &x1, &y1);
@@ -929,7 +904,7 @@ static void paint_draw_panel(int sel_color_idx, int sel_eraser_idx) {
         paint_draw_rect_outline(x0-1, y0-1, x1+1, y1+1, border);
     }
 
-    // Eraser-size buttons
+    
     for (int i = 0; i < ERASER_COUNT; ++i) {
         int x0, y0, x1, y1;
         eraser_btn_bbox(i, &x0, &y0, &x1, &y1);
@@ -938,7 +913,7 @@ static void paint_draw_panel(int sel_color_idx, int sel_eraser_idx) {
         paint_draw_rect_outline(x0-1, y0-1, x1+1, y1+1, border);
     }
 
-    // CLR button
+    
     paint_fill_rect(CLR_BTN_X0, CLR_BTN_Y0, CLR_BTN_X1, CLR_BTN_Y1, PAINT_BUTTON_COLOR);
     paint_draw_rect_outline(CLR_BTN_X0-1, CLR_BTN_Y0-1, CLR_BTN_X1+1, CLR_BTN_Y1+1, PAINT_BORDER_COLOR);
     *(char_ptr + (52 << 7) + 0) = 'C';
@@ -946,7 +921,6 @@ static void paint_draw_panel(int sel_color_idx, int sel_eraser_idx) {
     *(char_ptr + (52 << 7) + 2) = 'R';
 }
 
-// ── Canvas save / restore ─────────────────────────────────────────────────
 static void paint_save_canvas(void) {
     for (int y = 0; y < PAINT_CANVAS_H; ++y)
         for (int x = 0; x < PAINT_CANVAS_W; ++x)
@@ -967,14 +941,12 @@ static void paint_restore_canvas(void) {
                 paint_saved_canvas[y][x];
 }
 
-// ── Full UI init: restore saved canvas + draw panel ───────────────────────
 static void paint_init_ui(int sel_color_idx, int sel_eraser_idx) {
     clear_char();
     paint_restore_canvas();
     paint_draw_panel(sel_color_idx, sel_eraser_idx);
 }
 
-// ── Hit-test helpers ──────────────────────────────────────────────────────
 static int paint_palette_hit(int x, int y) {
     for (int i = 0; i < PALETTE_COUNT; ++i) {
         int x0, y0, x1, y1;
@@ -1003,7 +975,6 @@ static int paint_clr_hit(int x, int y) {
            y >= CLR_BTN_Y0 && y <= CLR_BTN_Y1;
 }
 
-// ── Brush plot ────────────────────────────────────────────────────────────
 static void paint_plot_brush(int x, int y, short int color, int radius) {
     for (int dy = -radius; dy <= radius; ++dy)
         for (int dx = -radius; dx <= radius; ++dx) {
@@ -1013,7 +984,6 @@ static void paint_plot_brush(int x, int y, short int color, int radius) {
         }
 }
 
-// ── Keyboard: S saves, ESC exits — non-blocking poll ─────────────────────
 static int paint_keyboard_action() {
     static int skip_next = 0;
     static int extended  = 0;
@@ -1028,16 +998,18 @@ static int paint_keyboard_action() {
     if (ps2_code == 0xE0) { extended  = 1;             return PAINT_KEY_NONE; }
     if (extended)         { extended  = 0;             return PAINT_KEY_NONE; }
 
-    if (ps2_code == 0x1B) return PAINT_KEY_SAVE;  // S make code
-    if (ps2_code == 0x76) return PAINT_KEY_EXIT;  // ESC make code
+    if (ps2_code == 0x1B) return PAINT_KEY_SAVE;  
+    if (ps2_code == 0x76) return PAINT_KEY_EXIT;  
     return PAINT_KEY_NONE;
 }
 
-// ── paint_app ─────────────────────────────────────────────────────────────
 void paint_app() {
     int palette_index = 0;
     int eraser_index  = 0;
     int prev_buttons  = 0;
+
+    mouse_buf_count = 0;
+    mouse_synced = 0;
 
     paint_init_ui(palette_index, eraser_index);
     flush_mouse();
@@ -1048,34 +1020,31 @@ void paint_app() {
     draw_mouse();
 
     while (1) {
-        // ── Keyboard checked FIRST — non-blocking so ESC exits immediately ──
         int key = paint_keyboard_action();
 
         if (key == PAINT_KEY_SAVE) {
-            // Erase cursor, snapshot canvas, restore cursor
             for (int i = 0; i < 4; ++i)
                 for (int j = 0; j < 4; ++j)
                     *(vga_ptr + ((mouse_y + j) << 9) + mouse_x + i) = under_mouse[i][j];
             paint_save_canvas();
             refresh_under_mouse();
             draw_mouse();
-            // Fall through to read_mouse() so loop stays alive
         }
         else if (key == PAINT_KEY_EXIT) {
-            // Erase cursor, auto-save, return — NO read_mouse() call here
             for (int i = 0; i < 4; ++i)
                 for (int j = 0; j < 4; ++j)
                     *(vga_ptr + ((mouse_y + j) << 9) + mouse_x + i) = under_mouse[i][j];
             paint_save_canvas();
-            break;  // immediate exit without waiting for a mouse packet
+            break;
         }
 
-        // ── Mouse — blocking read (partner's version, Y already inverted) ──
-        int mouse_dx, mouse_dy, mouse_buttons;
-        read_mouse(&mouse_dx, &mouse_dy, &mouse_buttons);
+        int mouse_dx = 0, mouse_dy = 0, mouse_buttons = prev_buttons;
+        if (!read_mouse_nb(&mouse_dx, &mouse_dy, &mouse_buttons)) {
+            continue;
+        }
 
         mouse_x += mouse_dx;
-        mouse_y += mouse_dy;  // dy already inverted by read_mouse()
+        mouse_y += mouse_dy;
         if (mouse_x < 0)   mouse_x = 0;
         if (mouse_x > 316) mouse_x = 316;
         if (mouse_y < 0)   mouse_y = 0;
@@ -1084,7 +1053,6 @@ void paint_app() {
         int just_left  = (mouse_buttons & 0b001) && !(prev_buttons & 0b001);
         int just_right = (mouse_buttons & 0b010) && !(prev_buttons & 0b010);
 
-        // ── Left click: colour swatch / eraser button / CLR ──────────────
         if (just_left) {
             if (paint_clr_hit(mouse_x, mouse_y)) {
                 paint_fill_rect(PAINT_CANVAS_LEFT, PAINT_CANVAS_TOP,
@@ -1094,7 +1062,7 @@ void paint_app() {
                 int picked_eraser = paint_eraser_hit(mouse_x, mouse_y);
                 if (picked_color >= 0 && picked_color != palette_index) {
                     palette_index = picked_color;
-                    paint_draw_panel(palette_index, eraser_index); // panel only
+                    paint_draw_panel(palette_index, eraser_index);
                 }
                 if (picked_eraser >= 0 && picked_eraser != eraser_index) {
                     eraser_index = picked_eraser;
@@ -1103,17 +1071,14 @@ void paint_app() {
             }
         }
 
-        // ── Held left → draw ─────────────────────────────────────────────
         if ((mouse_buttons & 0b001) && paint_in_canvas(mouse_x, mouse_y))
             paint_plot_brush(mouse_x, mouse_y,
                              paint_palette[palette_index],
                              eraser_radii[eraser_index]);
 
-        // ── Held right → erase ───────────────────────────────────────────
         if ((mouse_buttons & 0b010) && paint_in_canvas(mouse_x, mouse_y))
             paint_plot_brush(mouse_x, mouse_y, PAINT_BG_COLOR, eraser_radii[eraser_index]);
 
-        // ── Right-click on CLR → also wipe canvas ────────────────────────
         if (just_right && paint_clr_hit(mouse_x, mouse_y))
             paint_fill_rect(PAINT_CANVAS_LEFT, PAINT_CANVAS_TOP,
                             PAINT_CANVAS_RIGHT, PAINT_CANVAS_BOTTOM, PAINT_BG_COLOR);
@@ -1128,9 +1093,6 @@ void paint_app() {
     clear_char();
 }
 
-// ============================================================
-//  SHELL
-// ============================================================
 void main_shell() {
     clear_screen();
     clear_char();
