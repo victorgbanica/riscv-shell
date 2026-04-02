@@ -617,7 +617,6 @@ int read_mouse_nb(int* dx, int* dy, int* buttons) {
     b0 = *ps2_ptr2;
     if (!(b0 & 0x8000)) return 0;
     b0 = b0 & 0xFF;
-    if (!(b0 & 0x08)) return 0;
 
     while (!(*ps2_ptr2 & 0x8000));
     b1 = *ps2_ptr2 & 0xFF;
@@ -1029,10 +1028,10 @@ void paint_app() {
             continue;
         }
 
-        if (mouse_dx >  3) mouse_dx =  3;
-        if (mouse_dx < -3) mouse_dx = -3;
-        if (mouse_dy >  3) mouse_dy =  3;
-        if (mouse_dy < -3) mouse_dy = -3;
+        if (mouse_dx >  5) mouse_dx =  5;
+        if (mouse_dx < -5) mouse_dx = -5;
+        if (mouse_dy >  5) mouse_dy =  5;
+        if (mouse_dy < -5) mouse_dy = -5;
 
         mouse_x += mouse_dx;
         mouse_y += mouse_dy;
